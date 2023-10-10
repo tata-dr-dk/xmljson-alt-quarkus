@@ -1,0 +1,68 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0">
+    <xs:element name="presentationSeriesMessage" type="presentationSeriesMessageType" />
+
+    <xs:import schemaLocation="production.xsd" />
+
+    <xs:complexType name="presentationSeriesMessageType">
+        <xs:sequence>
+            <xs:element name="action" type="xs:string" />
+            <xs:element name="version" type="xs:string" minOccurs="0"/>
+            <xs:element name="modifiedTime" type="xs:dateTime" />
+            <xs:element name="production" type="productionType" minOccurs="0"/>
+            <xs:element name="presentationSeries" type="presentationSeriesType" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="presentationSeriesType">
+        <xs:sequence>
+            <xs:element name="id" type="xs:string" />
+            <xs:element name="parentId" type="xs:string" minOccurs="0" />
+            <xs:element name="title" type="xs:string" minOccurs="0" />
+            <xs:element name="description" type="xs:string" minOccurs="0" />
+            <xs:element name="genre" type="xs:string" minOccurs="0" />
+            <xs:element name="genreCode" type="xs:string" minOccurs="0" />
+            <xs:element name="genrePrintcode" type="xs:string" minOccurs="0" />
+            <xs:element name="seasonNumber" type="xs:string" minOccurs="0" />
+            <xs:element name="expectedNumberOfEpisodes" type="xs:string" minOccurs="0" />
+            <xs:element name="episodeNumberingValid" type="xs:boolean" minOccurs="0" />
+            <xs:element name="productionYear" type="xs:string" minOccurs="0"/>
+            <xs:element name="seasonTitle" type="xs:string" minOccurs="0"/>
+            <xs:element name="totalNumberOfEpisodes" type="xs:string" minOccurs="0"/>
+            <xs:element name="syncProductionYear" type="xs:string" minOccurs="0"/>
+            <xs:element name="syncSeason" type="xs:string" minOccurs="0"/>
+            <xs:element name="syncSeasonTitle" type="xs:string" minOccurs="0"/>
+            <xs:element name="syncTotalNumberOfEpisodes" type="xs:string" minOccurs="0"/>
+            <xs:element name="syncTitle" type="xs:string" minOccurs="0"/>
+            <xs:element name="syncDescription" type="xs:string" minOccurs="0"/>
+            <xs:element name="syncRitzauCategory" type="xs:string" minOccurs="0"/>
+            <xs:element name="image1Sequence" type="xs:string" minOccurs="0"/>
+            <xs:element name="image1Type" type="xs:string" minOccurs="0"/>
+            <xs:element name="image1URN" type="xs:string" minOccurs="0"/>
+			<xs:element name="image1Resolution" type="xs:string" minOccurs="0"/>
+			<xs:element name="image1AspectRatio" type="xs:string" minOccurs="0"/>						
+            <xs:element name="image2Sequence" type="xs:string" minOccurs="0"/>
+            <xs:element name="image2Type" type="xs:string" minOccurs="0"/>
+            <xs:element name="image2URN" type="xs:string" minOccurs="0"/>
+			<xs:element name="image2Resolution" type="xs:string" minOccurs="0"/>
+			<xs:element name="image2AspectRatio" type="xs:string" minOccurs="0"/>						
+            <xs:element name="image3Sequence" type="xs:string" minOccurs="0"/>
+            <xs:element name="image3Type" type="xs:string" minOccurs="0"/>
+            <xs:element name="image3URN" type="xs:string" minOccurs="0"/>
+			<xs:element name="image3Resolution" type="xs:string" minOccurs="0"/>
+			<xs:element name="image3AspectRatio" type="xs:string" minOccurs="0"/>						
+            <xs:element name="image4Sequence" type="xs:string" minOccurs="0"/>
+            <xs:element name="image4Type" type="xs:string" minOccurs="0"/>
+            <xs:element name="image4URN" type="xs:string" minOccurs="0"/>
+			<xs:element name="image4Resolution" type="xs:string" minOccurs="0"/>
+			<xs:element name="image4AspectRatio" type="xs:string" minOccurs="0"/>						
+            <xs:element name="image5Sequence" type="xs:string" minOccurs="0"/>
+            <xs:element name="image5Type" type="xs:string" minOccurs="0"/>
+            <xs:element name="image5URN" type="xs:string" minOccurs="0"/>
+			<xs:element name="image5Resolution" type="xs:string" minOccurs="0"/>
+			<xs:element name="image5AspectRatio" type="xs:string" minOccurs="0"/>			
+            <xs:element name="odCategory" minOccurs="0" maxOccurs="unbounded" type="odCategoryType" />
+            <xs:element name="drtvTest1Pres" type="xs:string" minOccurs="0"/>
+            <xs:element name="ageRating" minOccurs="0" maxOccurs="1" type="ageRatingType" />
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>

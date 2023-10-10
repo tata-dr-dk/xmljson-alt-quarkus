@@ -1,0 +1,61 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0">
+    <xs:element name="parentPresentationSeriesMessage" type="parentPresentationSeriesMessageType"/>
+
+    <xs:import schemaLocation="production.xsd" />
+
+    <xs:complexType name="parentPresentationSeriesMessageType">
+        <xs:sequence>
+            <xs:element name="action" type="xs:string"/>
+            <xs:element name="version" type="xs:string" minOccurs="0"/>
+            <xs:element name="modifiedTime" type="xs:dateTime"/>
+            <xs:element name="production" type="productionType" minOccurs="0"/>
+            <xs:element name="parentPresentationSeries" type="parentPresentationSeriesType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="parentPresentationSeriesType">
+        <xs:sequence>
+            <xs:element name="id" type="xs:string"/>
+            <xs:element name="title" type="xs:string" minOccurs="0"/>
+            <xs:element name="description" type="xs:string" minOccurs="0"/>
+            <xs:element name="genreCode" type="xs:string" minOccurs="0"/>
+            <xs:element name="genreText" type="xs:string" minOccurs="0"/>
+            <xs:element name="genrePrintcode" type="xs:string" minOccurs="0"/>
+            <xs:element name="presentationTypeText" type="xs:string" minOccurs="0"/>
+            <xs:element name="presentationTypeCode" type="xs:string" minOccurs="0"/>
+            <xs:element name="presentationTypePrintcode" type="xs:string" minOccurs="0"/>
+            <xs:element name="syncDescription" type="xs:string" minOccurs="0"/>
+            <xs:element name="syncRitzauCategory" type="xs:string" minOccurs="0"/>
+            <xs:element name="syncPresentationType" type="xs:string" minOccurs="0"/>
+            <xs:element name="syncTitle" type="xs:string" minOccurs="0"/>
+            <xs:element name="image1Sequence" type="xs:string" minOccurs="0"/>
+            <xs:element name="image1Type" type="xs:string" minOccurs="0"/>
+            <xs:element name="image1URN" type="xs:string" minOccurs="0"/>
+			<xs:element name="image1Resolution" type="xs:string" minOccurs="0"/>
+			<xs:element name="image1AspectRatio" type="xs:string" minOccurs="0"/>			
+            <xs:element name="image2Sequence" type="xs:string" minOccurs="0"/>
+            <xs:element name="image2Type" type="xs:string" minOccurs="0"/>
+            <xs:element name="image2URN" type="xs:string" minOccurs="0"/>
+			<xs:element name="image2Resolution" type="xs:string" minOccurs="0"/>
+			<xs:element name="image2AspectRatio" type="xs:string" minOccurs="0"/>			
+            <xs:element name="image3Sequence" type="xs:string" minOccurs="0"/>
+            <xs:element name="image3Type" type="xs:string" minOccurs="0"/>
+            <xs:element name="image3URN" type="xs:string" minOccurs="0"/>
+			<xs:element name="image3Resolution" type="xs:string" minOccurs="0"/>
+			<xs:element name="image3AspectRatio" type="xs:string" minOccurs="0"/>			 			
+            <xs:element name="image4Sequence" type="xs:string" minOccurs="0"/>
+            <xs:element name="image4Type" type="xs:string" minOccurs="0"/>
+            <xs:element name="image4URN" type="xs:string" minOccurs="0"/>
+			<xs:element name="image4Resolution" type="xs:string" minOccurs="0"/>
+			<xs:element name="image4AspectRatio" type="xs:string" minOccurs="0"/>						
+            <xs:element name="image5Sequence" type="xs:string" minOccurs="0"/>
+            <xs:element name="image5Type" type="xs:string" minOccurs="0"/>
+            <xs:element name="image5URN" type="xs:string" minOccurs="0"/>
+			<xs:element name="image5Resolution" type="xs:string" minOccurs="0"/>
+			<xs:element name="image5AspectRatio" type="xs:string" minOccurs="0"/>			 			
+            <xs:element name="odCategory" minOccurs="0" maxOccurs="unbounded" type="odCategoryType" />
+            <xs:element name="drtvTest1ParPres" type="xs:string" minOccurs="0"/>
+            <xs:element name="ageRating" minOccurs="0" maxOccurs="1" type="ageRatingType" />
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

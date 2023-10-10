@@ -1,0 +1,116 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0">
+    <xs:element name="flowPublicationMessage" type="flowPublicationMessageType"/>
+
+    <xs:import schemaLocation="production.xsd" />
+
+    <xs:complexType name="flowPublicationMessageType">
+        <xs:sequence>
+            <xs:element name="action" type="xs:string"/>
+            <xs:element name="version" type="xs:string" minOccurs="0"/>
+            <xs:element name="modifiedTime" type="xs:dateTime" />
+            <xs:element name="production" type="productionType" minOccurs="0"/>
+            <xs:element name="flowPublication" type="flowPublicationType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="flowPublicationType">
+        <xs:sequence>
+            <xs:element name="id" type="xs:string" />
+            <xs:element name="title" type="xs:string" minOccurs="0"/>
+            <xs:element name="description" type="xs:string" minOccurs="0"/>
+            <xs:element name="distributor" type="xs:string" minOccurs="0"/>
+            <xs:element name="broadcastDate" type="xs:date" minOccurs="0" />
+            <xs:element name="transmissionStartTime" type="xs:dateTime" minOccurs="0" />
+            <xs:element name="transmissionEndTime" type="xs:dateTime" minOccurs="0" />
+            <xs:element name="channelPresentationName" type="xs:string" minOccurs="0"/>
+            <xs:element name="channelPresentationCode" type="xs:string" minOccurs="0"/>
+            <xs:element name="live" type="xs:boolean" minOccurs="0"/>
+            <xs:element name="rerun" type="xs:boolean" minOccurs="0"/>
+            <xs:element name="technicalSubtextType" type="xs:string" minOccurs="0" />
+            <xs:element name="numberOfBlocks" type="xs:integer" minOccurs="0"/>
+            <xs:element name="quickReprise" type="xs:boolean" minOccurs="0"/>
+            <xs:element name="videoAspectRatio" type="xs:string" minOccurs="0"/>
+            <xs:element name="audio" type="xs:string" minOccurs="0"/>
+            <xs:element name="streamingLive" type="xs:boolean" minOccurs="0"/>
+            <xs:element name="streamingOd" type="xs:boolean" minOccurs="0"/>
+            <xs:element name="streamingLogicDestination" type="xs:string" minOccurs="0"/>
+            <xs:element name="broadcastStatus" type="xs:string" minOccurs="0"/>
+            <xs:element name="reconciled" type="xs:boolean" minOccurs="0"/>
+            <xs:element name="simultaniousChannels" type="simultaniousChannelsType" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="blocks" type="blocksType" minOccurs="0" maxOccurs="unbounded"/>
+            <xs:element name="mediaAsset" minOccurs="0" maxOccurs="unbounded" type="mediaAssetType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="blocksType">
+        <xs:sequence>
+            <xs:element name="id" type="xs:string" minOccurs="0"/>
+            <xs:element name="description" type="xs:string" minOccurs="0"/>
+            <xs:element name="punchlineFlow" minOccurs="0" type="xs:string"/>
+            <xs:element name="punchlineOD" minOccurs="0" type="xs:string"/>
+            <xs:element name="partNumber" type="xs:integer" minOccurs="0"/>
+            <xs:element name="broadcastDate" type="xs:date" minOccurs="0" />
+            <xs:element name="startTimeAnnounced" type="xs:dateTime" minOccurs="0"/>
+            <xs:element name="startTimeSlot" type="xs:dateTime" minOccurs="0"/>
+            <xs:element name="stopTimeSlot" type="xs:dateTime" minOccurs="0"/>
+            <xs:element name="startTimePlayout" type="xs:dateTime" minOccurs="0"/>
+            <xs:element name="stopTimePlayout" type="xs:dateTime" minOccurs="0"/>
+            <xs:element name="motherChannel" type="motherChannelType" minOccurs="0"/>
+            <xs:element name="printable" type="xs:boolean" minOccurs="0"/>
+            <xs:element name="epgrerun" type="xs:boolean" minOccurs="0"/>
+            <xs:element name="groupBlock" type="groupBlockType" minOccurs="0" />
+            <xs:element name="timeAllocations" type="timeAllocationsType" minOccurs="0" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="groupBlockType">
+        <xs:sequence>
+            <xs:element name="id" type="xs:string" />
+            <xs:element name="groupTitle" type="xs:string" />
+            <xs:element name="startTimeAnnounced" type="xs:dateTime" minOccurs="0"/>
+            <xs:element name="startTimeSlot" type="xs:dateTime" minOccurs="0"/>
+            <xs:element name="stopTimeSlot" type="xs:dateTime" minOccurs="0"/>
+            <xs:element name="startTimePlayout" type="xs:dateTime" minOccurs="0"/>
+            <xs:element name="stopTimePlayout" type="xs:dateTime" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="timeAllocationsType">
+        <xs:sequence>
+            <xs:element name="id" type="xs:string" minOccurs="0" />
+            <xs:element name="type" type="xs:string" minOccurs="0"/>
+            <xs:element name="events" type="eventsType" minOccurs="0" maxOccurs="unbounded" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="eventsType">
+        <xs:sequence>
+            <xs:element name="id" type="xs:string" />
+            <xs:element name="title" type="xs:string" minOccurs="0"/>
+            <xs:element name="startTimePresentation" type="xs:dateTime" minOccurs="0"/>
+            <xs:element name="stopTimePresentation" type="xs:dateTime" minOccurs="0"/>
+            <xs:element name="live" type="xs:boolean" minOccurs="0"/>
+            <xs:element name="technicalSubtextType" type="xs:string" minOccurs="0" />
+            <xs:element name="videoAspectRatio" type="xs:string" minOccurs="0"/>
+            <xs:element name="audio" type="xs:string" minOccurs="0"/>
+            <xs:element name="production" type="productionType" minOccurs="0" />
+            <xs:element name="remarks" type="xs:string" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="simultaniousChannelsType">
+        <xs:sequence>
+            <xs:element name="flowPublicationId" type="xs:string" minOccurs="0"/>
+            <xs:element name="simultaniousChannelPresentationName" type="xs:string" minOccurs="0" />
+            <xs:element name="simultaniousChannelCode" type="xs:string" minOccurs="0" />
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="motherChannelType">
+        <xs:sequence>
+            <xs:element name="flowPublicationId" type="xs:string" minOccurs="0"/>
+            <xs:element name="blockId" type="xs:string" minOccurs="0"/>
+            <xs:element name="channelPresentationName" type="xs:string" minOccurs="0"/>
+            <xs:element name="channelCode" type="xs:string" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

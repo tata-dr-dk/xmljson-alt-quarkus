@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:complexType name="titleType">
+        <xs:sequence>
+            <xs:element name="type" minOccurs="0" type="xs:string"/>
+            <xs:element name="printCode" minOccurs="0" type="xs:string"/>
+            <xs:element name="title" minOccurs="0" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="mediaAssetType">
+        <xs:sequence>
+            <xs:element name="id" minOccurs="0" type="xs:string"/>
+            <xs:element name="preferred" minOccurs="0" type="xs:boolean"/>
+            <xs:element name="canBeUsedForBroadcasting" minOccurs="0" type="xs:boolean"/>
+            <xs:element name="element" minOccurs="0" maxOccurs="unbounded" type="elementType" >
+                <xs:annotation>
+                    <xs:appinfo>
+                        <property name="element" />
+                    </xs:appinfo>
+                </xs:annotation>
+            </xs:element>
+            <xs:element name="expression" type="xs:string" minOccurs="0"/>
+            <xs:element name="expressionPrintcode" type="xs:string" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="elementType">
+        <xs:sequence>
+            <xs:element name="id" minOccurs="0" type="xs:string"/>
+            <xs:element name="sequenceNumber" minOccurs="0" type="xs:string"/>
+            <xs:element name="type" minOccurs="0" type="xs:string"/>
+            <xs:element name="duration" minOccurs="0" type="xs:string"/>
+            <xs:element name="rfb" minOccurs="0" type="xs:boolean"/>
+            <xs:element name="audioMode" type="xs:string" minOccurs="0"/>
+            <xs:element name="subtitlingMode" type="xs:string" minOccurs="0"/>
+            <xs:element name="mediearkivUrn" type="xs:string" minOccurs="0"/>
+            <xs:element name="subtitlingCodeResponsible" type="xs:string" minOccurs="0"/>
+            <xs:element name="aspectRatioCode" type="xs:string" minOccurs="0"/>
+            <xs:element name="aspectRatioText" type="xs:string" minOccurs="0"/>
+            <xs:element name="aspectRatioPrintcode" type="xs:string" minOccurs="0"/>
+            <xs:element name="videoModeCode" type="xs:string" minOccurs="0"/>
+            <xs:element name="videoModeText" type="xs:string" minOccurs="0"/>
+            <xs:element name="videoModePrintcode" type="xs:string" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>

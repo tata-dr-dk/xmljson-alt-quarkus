@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:import schemaLocation="shared.xsd" />
+
+    <xs:element name="productionMessage" type="productionMessageType"/>
+    <xs:complexType name="productionMessageType">
+        <xs:sequence>
+            <xs:element name="action" type="xs:string" />
+            <xs:element name="version" type="xs:string" minOccurs="0"/>
+            <xs:element name="modifiedTime" type="xs:dateTime" />
+            <xs:element name="production" type="productionType"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="productionType">
+        <xs:sequence>
+            <xs:element name="number" type="xs:string"/>
+            <xs:element name="oid" minOccurs="0" type="xs:string"/>
+            <xs:element name="parentNumber" minOccurs="0" type="xs:string"/>
+            <xs:element name="presentationSeriesId" minOccurs="0" type="xs:string"/>
+            <xs:element name="type" type="xs:string"/>
+            <xs:element name="transmissionType" minOccurs="0" type="xs:string"/>
+            <xs:element name="title" type="xs:string"/>
+            <xs:element name="titleAlternative" minOccurs="0" type="xs:string"/>
+            <xs:element name="punchlineFlow" minOccurs="0" type="xs:string"/>
+            <xs:element name="punchlineOD" minOccurs="0" type="xs:string"/>
+            <xs:element name="presentationEpisodeNumber" minOccurs="0" type="xs:string"/>
+            <xs:element name="seriesTitle" minOccurs="0" type="xs:string"/>
+            <xs:element name="parentseriesTitle" minOccurs="0" type="xs:string"/>
+            <xs:element name="description" minOccurs="0" type="xs:string"/>
+            <xs:element name="category" minOccurs="0" type="xs:string"/>
+            <xs:element name="targetGroup" minOccurs="0" type="xs:string"/>
+            <xs:element name="intention" minOccurs="0" type="xs:string"/>
+            <xs:element name="form" minOccurs="0" type="xs:string"/>
+            <xs:element name="frequency" minOccurs="0" type="xs:string"/>
+            <xs:element name="origin" minOccurs="0" type="xs:string"/>
+            <xs:element name="prodmode" minOccurs="0" type="xs:string"/>
+            <xs:element name="department" minOccurs="0" type="xs:string"/>
+            <xs:element name="departmentCode" minOccurs="0" type="xs:string"/>
+            <xs:element name="departmentPrintcode" minOccurs="0" type="xs:string"/>
+            <xs:element name="costcenter" minOccurs="0" type="xs:string"/>
+            <xs:element name="costcenterCode" minOccurs="0" type="xs:string"/>
+            <xs:element name="costcenterPrintcode" minOccurs="0" type="xs:string"/>
+            <xs:element name="series" type="xs:boolean"/>
+            <xs:element name="ownProduction" minOccurs="0" type="xs:boolean"/>
+            <xs:element name="content" minOccurs="0" type="xs:string"/>
+            <xs:element name="year" minOccurs="0" type="xs:string"/>
+            <xs:element name="genreCode" minOccurs="0" type="xs:string"/>
+            <xs:element name="genreText" minOccurs="0" type="xs:string"/>
+            <xs:element name="genrePrintcode" minOccurs="0" type="xs:string"/>
+            <xs:element name="country" minOccurs="0" type="xs:string"/>
+            <xs:element name="subjectcountry" minOccurs="0" type="xs:string"/>
+            <xs:element name="createTime" type="xs:dateTime"/>
+            <xs:element name="trailer" type="xs:boolean" minOccurs="0"/>
+            <xs:element name="trailerCampaignId" type="xs:string" minOccurs="0"/>
+            <xs:element name="duration" type="xs:string" minOccurs="0"/>
+            <xs:element name="audioDescription" type="xs:boolean" minOccurs="0"/>
+            <xs:element name="subtitleCode" type="xs:string" minOccurs="0"/>
+            <xs:element name="subtitleMode" type="xs:string" minOccurs="0"/>
+            <xs:element name="nameAndRole" minOccurs="0" maxOccurs="unbounded" type="nameAndRole"/>
+            <xs:element name="mediaAsset" minOccurs="0" maxOccurs="unbounded" type="mediaAssetType"/>
+            <xs:element name="episodeTitle" type="xs:string" minOccurs="0"/>
+            <xs:element name="seasonTitle" type="xs:string" minOccurs="0"/>
+            <xs:element name="seasonNumber" type="xs:string" minOccurs="0"/>
+            <xs:element name="presentationTypeText" type="xs:string" minOccurs="0"/>
+            <xs:element name="presentationTypeCode" type="xs:string" minOccurs="0"/>
+            <xs:element name="presentationTypePrintcode" type="xs:string" minOccurs="0"/>
+            <xs:element name="productTitleTemplate" type="xs:string" minOccurs="0"/>
+            <xs:element name="productRegions" type="productRegionsType" minOccurs="0" />
+            <xs:element name="image1Sequence" type="xs:string" minOccurs="0"/>
+            <xs:element name="image1Type" type="xs:string" minOccurs="0"/>
+            <xs:element name="image1URN" type="xs:string" minOccurs="0"/>
+			<xs:element name="image1Resolution" type="xs:string" minOccurs="0"/>
+			<xs:element name="image1AspectRatio" type="xs:string" minOccurs="0"/>			
+            <xs:element name="image2Sequence" type="xs:string" minOccurs="0"/>
+            <xs:element name="image2Type" type="xs:string" minOccurs="0"/>
+            <xs:element name="image2URN" type="xs:string" minOccurs="0"/>
+			<xs:element name="image2Resolution" type="xs:string" minOccurs="0"/>
+			<xs:element name="image2AspectRatio" type="xs:string" minOccurs="0"/>
+            <xs:element name="image3Sequence" type="xs:string" minOccurs="0"/>
+            <xs:element name="image3Type" type="xs:string" minOccurs="0"/>
+            <xs:element name="image3URN" type="xs:string" minOccurs="0"/>
+			<xs:element name="image3Resolution" type="xs:string" minOccurs="0"/>
+			<xs:element name="image3AspectRatio" type="xs:string" minOccurs="0"/>			
+            <xs:element name="image4Sequence" type="xs:string" minOccurs="0"/>
+            <xs:element name="image4Type" type="xs:string" minOccurs="0"/>
+            <xs:element name="image4URN" type="xs:string" minOccurs="0"/>
+			<xs:element name="image4Resolution" type="xs:string" minOccurs="0"/>
+			<xs:element name="image4AspectRatio" type="xs:string" minOccurs="0"/>
+            <xs:element name="image5Sequence" type="xs:string" minOccurs="0"/>
+            <xs:element name="image5Type" type="xs:string" minOccurs="0"/>
+            <xs:element name="image5URN" type="xs:string" minOccurs="0"/>
+			<xs:element name="image5Resolution" type="xs:string" minOccurs="0"/>
+			<xs:element name="image5AspectRatio" type="xs:string" minOccurs="0"/>			
+            <xs:element name="odCategory" minOccurs="0" maxOccurs="unbounded" type="odCategoryType" />
+            <xs:element name="availableFrom" type="xs:dateTime" minOccurs="0"/>
+            <xs:element name="availableFromWriteProtect" type="xs:boolean" minOccurs="0"/>
+            <xs:element name="explicitContent" type="xs:boolean" minOccurs="0"/>
+            <xs:element name="rectificationStatus" type="xs:string" minOccurs="0"/>
+            <xs:element name="rectificationText" type="xs:string" minOccurs="0"/>
+            <xs:element name="rectificationLink" type="xs:string" minOccurs="0"/>
+            <xs:element name="rectificationLinkText" type="xs:string" minOccurs="0"/>
+            <xs:element name="drtvTest1Prod" type="xs:string" minOccurs="0"/>
+            <xs:element name="ageRating" minOccurs="0" maxOccurs="1" type="ageRatingType" />
+            <xs:element name="personalization" minOccurs="0" maxOccurs="1" type="personalizationType" />
+            <xs:element name="keywordsLocation" type="xs:string" minOccurs="0"/>
+            <xs:element name="keywordsOrganization" type="xs:string" minOccurs="0"/>
+            <xs:element name="keywordsPerson" type="xs:string" minOccurs="0"/>
+            <xs:element name="keywordsThesaurus" type="xs:string" minOccurs="0"/>
+            <xs:element name="keywordsControlled" type="xs:string" minOccurs="0"/>
+			<xs:element name="titles" minOccurs="0" maxOccurs="unbounded" type="titleType" />			
+            <xs:element name="versionType" minOccurs="0" type="xs:string"/>
+			<xs:element name="linkedRelation" minOccurs="0" maxOccurs="unbounded" type="linkedRelationType" />
+            <xs:element name="presentBeforePublish" type="xs:boolean" minOccurs="0"/>			
+            <xs:element name="ownedPresSeriesId" minOccurs="0" type="xs:string"/>
+            <xs:element name="ownedParPresSeriesId" minOccurs="0" type="xs:string"/>
+            <xs:element name="keywordsEditorialPTaxTop" minOccurs="0" maxOccurs="1" type="woLotType" />
+            <xs:element name="keywordsEditorialPTaxSub" minOccurs="0" maxOccurs="unbounded" type="woLotType" />
+            <xs:element name="odDuration" minOccurs="0" type="xs:string" />
+       </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="odCategoryType">
+        <xs:sequence>
+            <xs:element name="name" minOccurs="0" type="xs:string"/>
+            <xs:element name="userCode" minOccurs="0" type="xs:string"/>
+            <xs:element name="printCode" minOccurs="0" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="ageRatingType">
+	    <xs:sequence>
+		    <xs:element name="code" minOccurs="0" type="xs:string"/>
+		    <xs:element name="text" minOccurs="0" type="xs:string"/>
+	    </xs:sequence>
+    </xs:complexType>
+
+
+    <xs:complexType name="productRegionsType">
+        <xs:sequence>
+            <xs:element minOccurs="1" name="productRegion" maxOccurs="unbounded">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="1"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="nameAndRole">
+        <xs:sequence>
+            <xs:element name="name" minOccurs="0" type="xs:string"/>
+            <xs:element name="role" minOccurs="0" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="personalizationType">
+        <xs:sequence>
+            <xs:element name="form" minOccurs="0" maxOccurs="1" type="personalizationListType"/>
+            <xs:element name="content" minOccurs="0" maxOccurs="1" type="personalizationListType"/>
+            <xs:element name="targetGroup" minOccurs="0" maxOccurs="1" type="personalizationListType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="personalizationListType">
+        <xs:sequence>
+            <xs:element name="code" minOccurs="0" type="xs:string"/>
+            <xs:element name="text" minOccurs="0" type="xs:string"/>
+            <xs:element name="path" minOccurs="0" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="linkedRelationType">
+        <xs:sequence>
+            <xs:element name="relationType" minOccurs="0" type="xs:string"/>
+            <xs:element name="linkType" minOccurs="0" type="xs:string"/>
+            <xs:element name="productionNumber" minOccurs="0" type="xs:string"/>
+            <xs:element name="oid" minOccurs="0" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="woLotType">
+        <xs:sequence>
+            <xs:element name="name" minOccurs="0" type="xs:string"/>
+            <xs:element name="userCode" minOccurs="0" type="xs:string"/>
+            <xs:element name="printCode" minOccurs="0" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>

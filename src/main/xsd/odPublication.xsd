@@ -1,0 +1,96 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0">
+    <xs:element name="odPublicationMessage" type="odPublicationMessageType"/>
+
+    <xs:import schemaLocation="production.xsd" />
+
+    <xs:complexType name="odPublicationMessageType">
+        <xs:sequence>
+            <xs:element name="action" type="xs:string"/>
+            <xs:element name="version" type="xs:string" minOccurs="0"/>
+            <xs:element name="modifiedTime" type="xs:dateTime" />
+            <xs:element name="production" type="productionType"/>
+            <xs:element name="odPublication" type="odPublicationType"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="odPublicationType">
+        <xs:sequence>
+            <xs:element name="id">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="1"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="title" minOccurs="0">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="1"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+            <xs:element name="transmissionId" type="xs:string" minOccurs="0"/>
+            <xs:element name="description" type="xs:string" minOccurs="0"/>
+            <xs:element name="startTime" type="xs:dateTime" minOccurs="0"/>
+            <xs:element name="endTime" type="xs:dateTime" minOccurs="0"/>
+            <xs:element name="live" type="xs:string" minOccurs="0"/>
+            <xs:element name="geofiltered" type="xs:boolean" minOccurs="0"/>
+            <xs:element name="drmProtected" type="xs:boolean" minOccurs="0"/>
+            <xs:element name="downloadable" type="xs:boolean" minOccurs="0"/>
+            <xs:element name="brandingChannel" type="xs:string" minOccurs="0"/>
+            <xs:element name="brandingChannelName" type="xs:string" minOccurs="0"/>
+            <xs:element name="platforms" type="platformsType" minOccurs="0"/>
+            <xs:element name="substitutesIds" type="substitutesIdsType" minOccurs="0"/>
+            <xs:element name="transmissionIds" type="transmissionIdsType" minOccurs="0"/>
+            <xs:element name="broadcastChannel" type="xs:string" minOccurs="0"/>
+            <xs:element name="broadcastChannelName" type="xs:string" minOccurs="0"/>
+            <xs:element name="broadcastTime" type="xs:dateTime" minOccurs="0"/>
+            <xs:element name="geofilterDetails" type="geofilterDetailsType" minOccurs="0" maxOccurs="unbounded"/>			
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="platformsType">
+        <xs:sequence>
+            <xs:element minOccurs="1" name="platform" maxOccurs="unbounded">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="1"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="substitutesIdsType">
+        <xs:sequence>
+            <xs:element minOccurs="1" name="substitutesId" maxOccurs="unbounded">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="1"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="transmissionIdsType">
+        <xs:sequence>
+            <xs:element minOccurs="1" name="transmissionId" maxOccurs="unbounded">
+                <xs:simpleType>
+                    <xs:restriction base="xs:string">
+                        <xs:minLength value="1"/>
+                    </xs:restriction>
+                </xs:simpleType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="geofilterDetailsType">
+        <xs:sequence>
+            <xs:element name="name" minOccurs="0" type="xs:string"/>
+            <xs:element name="userCode" minOccurs="0" type="xs:string"/>
+            <xs:element name="printCode" minOccurs="0" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>
