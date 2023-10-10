@@ -1,0 +1,110 @@
+{
+  "action" : "CU",
+  "version" : "16",
+  "modifiedTime" : "2023-10-10T14:43:14.578+02:00",
+  "production" : {
+    "number" : "00122347670",
+    "oid" : "4125832693527",
+    "parentNumber" : "00122344001",
+    "presentationSeriesId" : "4202675059000",
+    "type" : "TV",
+    "transmissionType" : "episode",
+    "title" : "TV AVISEN",
+    "titleAlternative" : "TV AVISEN",
+    "presentationEpisodeNumber" : "3007",
+    "seriesTitle" : "TV AVISEN PLAYOUT AKUT",
+    "parentseriesTitle" : "TV AVISEN",
+    "description" : "Udenrigsministeriet kan bekræfte, at en dansk-israelsk statsborger er meldt savnet i Israel. Ministeriet er i kontakt med pårørende og relevante israelske myndigheder i sagen.",
+    "category" : "Nyheder",
+    "targetGroup" : "VOKSNE (31-60)",
+    "intention" : "AT INFORMERE",
+    "form" : "Nyhedsuds._Journalistiske programmer",
+    "frequency" : "ANDEN FREKVENS",
+    "origin" : "EGENPRODUKTION (DR, TV2 EL. TV3)",
+    "prodmode" : "DIREKTE",
+    "department" : "DR-NYHEDER",
+    "departmentCode" : "1.1.0.0",
+    "departmentPrintcode" : "1100",
+    "costcenter" : "22270 TVA",
+    "costcenterCode" : "22270",
+    "series" : "false",
+    "ownProduction" : "true",
+    "content" : "SAMFUNDSFORHOLD (FAKTA)",
+    "year" : "2023",
+    "genreCode" : "9.0",
+    "genreText" : "Nyheder & Aktualitet",
+    "genrePrintcode" : "Nyheder & Aktualitet",
+    "country" : "DANMARK",
+    "subjectcountry" : "IKKE GEOGRAFISK BESTEMT",
+    "createTime" : "2022-11-30T11:25:30.024+01:00",
+    "duration" : "PT16M05.000S",
+    "audioDescription" : "false",
+    "subtitleMode" : "LIVE",
+    "mediaAsset" : [ {
+      "id" : "0102656",
+      "preferred" : "true",
+      "canBeUsedForBroadcasting" : "true",
+      "element" : [ {
+        "id" : "SUB 062578",
+        "sequenceNumber" : "1",
+        "type" : "subtitle",
+        "rfb" : "false"
+      }, {
+        "id" : "video 036470",
+        "sequenceNumber" : "1",
+        "type" : "video",
+        "aspectRatioCode" : "16:9",
+        "aspectRatioText" : "HD",
+        "aspectRatioPrintcode" : "16:9"
+      } ],
+      "expression" : "Default"
+    } ],
+    "episodeTitle" : "69-årig dansk-israelsk statsborger meldt savnet i Israel",
+    "seasonNumber" : "2023",
+    "presentationTypeText" : "Nyheder",
+    "presentationTypeCode" : "4.0",
+    "presentationTypePrintcode" : "Nyheder",
+    "productRegions" : [ "DANMARK" ],
+    "odCategory" : [ {
+      "name" : "Nyheder og Aktualitet",
+      "userCode" : "2.0",
+      "printCode" : "Nyheder og Aktualitet"
+    } ],
+    "availableFrom" : "2023-10-11T09:30:00.000+02:00",
+    "availableFromWriteProtect" : "false",
+    "explicitContent" : "false",
+    "ageRating" : {
+      "code" : "MRAM-EXCEPT",
+      "text" : "Skal ikke vurderes"
+    },
+    "personalization" : {
+      "form" : {
+        "code" : "1.1.0.0",
+        "text" : "Nyhedsuds._Journalistiske programmer",
+        "path" : "Journalistiske programmer|Nyhedsuds._Journalistiske programmer"
+      },
+      "content" : {
+        "code" : "7.0.0.0",
+        "text" : "ANDET",
+        "path" : "ANDET"
+      },
+      "targetGroup" : {
+        "code" : "2.4.0.0",
+        "text" : "VOKSNE (31-60)",
+        "path" : "VOKSNE|VOKSNE (31-60)"
+      }
+    },
+    "keywordsEditorialPTaxTop" : [ {
+      "name" : "Nyheder",
+      "userCode" : "2.0",
+      "printCode" : "Nyheder"
+    } ],
+    "keywordsEditorialPTaxSub" : [ {
+      "name" : "Nyheder@nyheder",
+      "userCode" : "2.2",
+      "printCode" : "Nyheder"
+    } ],
+    "administrativeTitle" : "TV AVISEN E3007 [00122347670]"
+  },
+  "touched" : 1696941795371
+}

@@ -4,11 +4,12 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import io.quarkus.jackson.ObjectMapperCustomizer;
 import jakarta.inject.Singleton;
+import org.apache.camel.Configuration;
 
 import java.util.TimeZone;
 
-@Singleton
-public class Config implements ObjectMapperCustomizer {
+@Configuration
+public class Config {
 
     public void customize(ObjectMapper mapper) {
         mapper.registerModule(new JavaTimeModule());

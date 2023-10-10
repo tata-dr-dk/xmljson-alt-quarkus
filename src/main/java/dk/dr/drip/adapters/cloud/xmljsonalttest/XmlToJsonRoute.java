@@ -33,6 +33,7 @@ public class XmlToJsonRoute extends EndpointRouteBuilder {
         // marshal json
         JacksonDataFormat dataFormat = new JacksonDataFormat();
         dataFormat.setObjectMapper(getObjectMapper());
+        dataFormat.setPrettyPrint(true);
 
         from(direct("flow-publication-converter")).routeId("flow-publication-route")
                 .unmarshal(jaxb)
@@ -45,6 +46,7 @@ public class XmlToJsonRoute extends EndpointRouteBuilder {
         ObjectMapper mapper = JsonMapper.builder()
                 // "1" instead of 1
                 .enable(JsonWriteFeature.WRITE_NUMBERS_AS_STRINGS)
+                .disable(SerializationFeature.INDENT_OUTPUT)
                 .build()
                 // preserve list types
                 .configure(DeserializationFeature.ACCEPT_SINGLE_VALUE_AS_ARRAY, true)

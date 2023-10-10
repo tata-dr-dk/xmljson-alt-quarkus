@@ -1,0 +1,35 @@
+{
+  "action" : "CU",
+  "version" : "10",
+  "modifiedTime" : "2023-10-10T13:51:34.433+02:00",
+  "production" : {
+    "number" : "80000009950",
+    "type" : "TV",
+    "explicitContent" : "false"
+  },
+  "parentPresentationSeries" : {
+    "id" : "3664014207000",
+    "title" : "The Gullspång Miracle - DFI",
+    "description" : "Et tegn fra Gud får to norske søstre til at købe en lejlighed i den lille svenske by, Gullspång. Da de tropper op på ejendomsmæglerens kontor for at underskrive købskontrakten, får de et mindre chok. Foran dem sidder en fremmed kvinde, som ligner deres ældre søster på en prik - en søster, som begik selvmord 30 år tidligere. Hvad der begynder som en utrolig historie om en families genforening bliver snart en Pandoras æske, da alle tre kvinders liv kommer ud af kontrol i jagten efter sandheden.",
+    "genreCode" : "2.0",
+    "genreText" : "Dokumentar",
+    "genrePrintcode" : "Dokumentar",
+    "presentationTypeText" : "Film / Enkeltprogrammer",
+    "presentationTypeCode" : "5.0",
+    "presentationTypePrintcode" : "Film / Enkeltprogrammer",
+    "syncDescription" : "true",
+    "syncRitzauCategory" : "true",
+    "syncPresentationType" : "true",
+    "syncTitle" : "true",
+    "odCategory" : [ {
+      "name" : "Dokumentar",
+      "userCode" : "3.0",
+      "printCode" : "Dokumentar"
+    } ],
+    "ageRating" : {
+      "code" : "MRAM-07",
+      "text" : "7 år"
+    }
+  },
+  "touched" : 1696938694724
+}

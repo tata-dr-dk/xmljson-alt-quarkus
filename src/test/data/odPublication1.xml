@@ -1,0 +1,32 @@
+<odPublicationMessage>
+    <action>CU</action>
+    <version>12</version>
+    <modifiedTime>2023-10-10T12:45:53.765</modifiedTime>
+    <production>
+        <number>12422336424</number>
+        <type>Radio</type>
+    </production>
+    <odPublication>
+        <id>4965804814812</id>
+        <title>Klassisk Mix</title>
+        <transmissionId>4180359424812</transmissionId>
+        <description>Brug et mix af klassisk musik til en tur i skoven, til transporttid eller bare til en pause. P2
+            giver dig et godt mix, som kan streames via DR Lyd eller nydes hver eftermiddag i din radio.
+            Helt værk: Peter Heise: Klavertrio Es-dur. Eskær trioen.
+            Vært: Mette Greiffenberg.
+        </description>
+        <startTime>2023-10-19T12:03:00.000</startTime>
+        <endTime>2023-11-17T22:59:00.000</endTime>
+        <geofiltered>false</geofiltered>
+        <drmProtected>false</drmProtected>
+        <downloadable>false</downloadable>
+        <brandingChannel>P2D</brandingChannel>
+        <brandingChannelName>DR P2</brandingChannelName>
+        <platforms>
+            <platform>DR LYD</platform>
+        </platforms>
+        <broadcastChannel>P2D</broadcastChannel>
+        <broadcastChannelName>DR P2</broadcastChannelName>
+        <broadcastTime>2023-10-19T00:00:00.000</broadcastTime>
+    </odPublication>
+</odPublicationMessage>

@@ -22,15 +22,54 @@
             <jaxb:property name="element"/>
         </jaxb:bindings>
     </jaxb:bindings>
+    <jaxb:bindings schemaLocation="production.xsd">
+        <jaxb:bindings node="//xs:element[@name='nameAndRole']">
+            <jaxb:property name="nameAndRole"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="//xs:element[@name='mediaAsset']">
+            <jaxb:property name="mediaAsset"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="//xs:element[@name='odCategory']">
+            <jaxb:property name="odCategory"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="//xs:element[@name='linkedRelation']">
+            <jaxb:property name="linkedRelation"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="//xs:element[@name='keywordsEditorialPTaxSub']">
+            <jaxb:property name="keywordsEditorialPTaxSub"/>
+        </jaxb:bindings>
+
+    </jaxb:bindings>
+
     <jaxb:bindings schemaLocation="flowPublication.xsd">
         <jaxb:bindings node="//xs:element[@name='mediaAsset']">
             <jaxb:property name="mediaAsset"/>
         </jaxb:bindings>
     </jaxb:bindings>
-    <jaxb:bindings schemaLocation="production.xsd">
-        <jaxb:bindings node="//xs:element[@name='mediaAsset']">
-            <jaxb:property name="mediaAsset"/>
+
+    <jaxb:bindings schemaLocation="odPublication.xsd">
+        <!--jaxb:bindings node="//xs:element[@name='platform']">
+            <jaxb:property name="platform"/>
+        </jaxb:bindings-->
+        <jaxb:bindings node="//xs:element[@name='substitutesId']">
+            <jaxb:property name="substitutesId"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="//xs:complexType[@name='transmissionIdsType']//xs:element[@name='transmissionId']">
+            <jaxb:property name="transmissionId"/>
         </jaxb:bindings>
     </jaxb:bindings>
+
+    <jaxb:bindings schemaLocation="parentPresentationSeries.xsd">
+        <jaxb:bindings node="//xs:element[@name='odCategory']">
+            <jaxb:property name="odCategory"/>
+        </jaxb:bindings>
+    </jaxb:bindings>
+
+    <jaxb:bindings schemaLocation="presentationSeries.xsd">
+        <jaxb:bindings node="//xs:element[@name='odCategory']">
+            <jaxb:property name="odCategory"/>
+        </jaxb:bindings>
+    </jaxb:bindings>
+
 
 </jaxb:bindings>

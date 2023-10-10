@@ -1,0 +1,65 @@
+<flowPublicationMessage>
+    <action>CU</action>
+    <version>14</version>
+    <modifiedTime>2023-10-10T12:41:17.162</modifiedTime>
+    <production>
+        <number>12422343411</number>
+        <type>Radio</type>
+    </production>
+    <flowPublication>
+        <id>4180357284812</id>
+        <title>P2 Koncerten - Meditationskoncert med DR Vokalensemblet</title>
+        <description>Luk øjnene og få åndedrættet helt i ro. DR Vokalensemblet og cellist Richard Krug lader klangene
+            folde sig ud i Vor Frue Kirkes store kirkerum med musik der giver plads til den indre stilhed og
+            eftertænksomhed.
+            DR Vokalensemblet.
+            Richard Krug, cello.
+            Dirigent: Martina Batic.
+            (Vor Frue Kirke i København. 7. oktober).
+            Vært: Celine Haastrup.
+        </description>
+        <broadcastDate>2023-10-14</broadcastDate>
+        <transmissionStartTime>2023-10-14T10:15:00.000</transmissionStartTime>
+        <transmissionEndTime>2023-10-14T13:00:00.000</transmissionEndTime>
+        <channelPresentationName>DR P2</channelPresentationName>
+        <channelPresentationCode>P2D</channelPresentationCode>
+        <live>false</live>
+        <rerun>true</rerun>
+        <numberOfBlocks>1</numberOfBlocks>
+        <quickReprise>true</quickReprise>
+        <streamingLive>false</streamingLive>
+        <streamingOd>false</streamingOd>
+        <reconciled>false</reconciled>
+        <blocks>
+            <id>4180357285813</id>
+            <description>Luk øjnene og få åndedrættet helt i ro. DR Vokalensemblet og cellist Richard Krug lader
+                klangene folde sig ud i Vor Frue Kirkes store kirkerum med musik der giver plads til den indre stilhed
+                og eftertænksomhed.
+                DR Vokalensemblet.
+                Richard Krug, cello.
+                Dirigent: Martina Batic.
+                (Vor Frue Kirke i København. 7. oktober).
+                Vært: Celine Haastrup.
+                (Genudsendelse fra mandag).
+            </description>
+            <partNumber>1</partNumber>
+            <broadcastDate>2023-10-14</broadcastDate>
+            <startTimeAnnounced>2023-10-14T10:15:00.000</startTimeAnnounced>
+            <startTimeSlot>2023-10-14T10:15:00.000</startTimeSlot>
+            <stopTimeSlot>2023-10-14T13:00:00.000</stopTimeSlot>
+            <printable>true</printable>
+            <epgrerun>true</epgrerun>
+            <timeAllocations>
+                <id>4180357290321</id>
+                <type>Segment of program</type>
+                <events>
+                    <id>4180357291327</id>
+                    <title>P2 Koncerten - Meditationskoncert med DR Vokalensemblet</title>
+                    <startTimePresentation>2023-10-14T10:15:00.000</startTimePresentation>
+                    <stopTimePresentation>2023-10-14T13:00:00.000</stopTimePresentation>
+                    <live>false</live>
+                </events>
+            </timeAllocations>
+        </blocks>
+    </flowPublication>
+</flowPublicationMessage>

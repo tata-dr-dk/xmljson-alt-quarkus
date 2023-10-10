@@ -1,0 +1,110 @@
+{
+  "action" : "CU",
+  "version" : "16",
+  "modifiedTime" : "2023-10-10T14:42:48.832+02:00",
+  "production" : {
+    "number" : "00122355450",
+    "oid" : "4278510839527",
+    "parentNumber" : "00122353001",
+    "presentationSeriesId" : "4278374618000",
+    "type" : "TV",
+    "transmissionType" : "episode",
+    "title" : "Seneste nyt fra TVA Live",
+    "titleAlternative" : "Seneste nyt fra TV Avisen",
+    "presentationEpisodeNumber" : "246",
+    "seriesTitle" : "Seneste nyt fra TVA Live",
+    "parentseriesTitle" : "Seneste nyt fra TVA Live",
+    "category" : "Nyheder",
+    "targetGroup" : "VOKSNE",
+    "intention" : "AT INFORMERE",
+    "form" : "Nyhedsuds._Journalistiske programmer",
+    "frequency" : "ANDEN FREKVENS",
+    "origin" : "EGENPRODUKTION (DR, TV2 EL. TV3)",
+    "prodmode" : "DIREKTE",
+    "series" : "false",
+    "ownProduction" : "true",
+    "content" : "SAMFUNDSFORHOLD (FAKTA)",
+    "year" : "2023",
+    "genreCode" : "9.0",
+    "genreText" : "Nyheder & Aktualitet",
+    "genrePrintcode" : "Nyheder & Aktualitet",
+    "country" : "DANMARK",
+    "subjectcountry" : "IKKE GEOGRAFISK BESTEMT",
+    "createTime" : "2023-01-16T12:18:25.947+01:00",
+    "duration" : "PT505M12.360S",
+    "audioDescription" : "false",
+    "subtitleMode" : "LIVE",
+    "mediaAsset" : [ {
+      "id" : "0106046",
+      "preferred" : "true",
+      "canBeUsedForBroadcasting" : "true",
+      "element" : [ {
+        "id" : "SUB 065606",
+        "sequenceNumber" : "1",
+        "type" : "subtitle",
+        "rfb" : "false"
+      }, {
+        "id" : "video 039498",
+        "sequenceNumber" : "1",
+        "type" : "video",
+        "aspectRatioCode" : "16:9",
+        "aspectRatioText" : "HD",
+        "aspectRatioPrintcode" : "16:9"
+      } ],
+      "expression" : "Default"
+    } ],
+    "seasonNumber" : "2023",
+    "presentationTypeText" : "Nyheder",
+    "presentationTypeCode" : "4.0",
+    "presentationTypePrintcode" : "Nyheder",
+    "productRegions" : [ "DANMARK", "IKKE GEOGRAFISK BESTEMT" ],
+    "image1Sequence" : "0",
+    "image1Type" : "DRTV Standard",
+    "image1URN" : "https://drbilleder-prod.s3.amazonaws.com/DR/0000/748/326/DR-0748326.jpg?v=caf44ed6e2d6f90b6dd2b87f119b02f2",
+    "image2Sequence" : "0",
+    "image3Sequence" : "0",
+    "image4Sequence" : "0",
+    "image5Sequence" : "0",
+    "odCategory" : [ {
+      "name" : "Nyheder og Aktualitet",
+      "userCode" : "2.0",
+      "printCode" : "Nyheder og Aktualitet"
+    } ],
+    "availableFrom" : "2023-10-10T08:30:00.000+02:00",
+    "availableFromWriteProtect" : "false",
+    "explicitContent" : "false",
+    "ageRating" : {
+      "code" : "MRAM-EXCEPT",
+      "text" : "Skal ikke vurderes"
+    },
+    "personalization" : {
+      "form" : {
+        "code" : "1.1.0.0",
+        "text" : "Nyhedsuds._Journalistiske programmer",
+        "path" : "Journalistiske programmer|Nyhedsuds._Journalistiske programmer"
+      },
+      "content" : {
+        "code" : "7.0.0.0",
+        "text" : "ANDET",
+        "path" : "ANDET"
+      },
+      "targetGroup" : {
+        "code" : "2.0.0.0",
+        "text" : "VOKSNE",
+        "path" : "VOKSNE"
+      }
+    },
+    "keywordsEditorialPTaxTop" : [ {
+      "name" : "Nyheder",
+      "userCode" : "2.0",
+      "printCode" : "Nyheder"
+    } ],
+    "keywordsEditorialPTaxSub" : [ {
+      "name" : "Nyheder@nyheder",
+      "userCode" : "2.2",
+      "printCode" : "Nyheder"
+    } ],
+    "administrativeTitle" : "Seneste nyt fra TVA Live E246 [00122355450]"
+  },
+  "touched" : 1696941769619
+}

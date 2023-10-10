@@ -1,0 +1,69 @@
+<presentationSeriesMessage>
+    <action>CU</action>
+    <version>9</version>
+    <modifiedTime>2023-10-10T12:42:34.382</modifiedTime>
+    <production>
+        <number>00212318001</number>
+        <type>TV</type>
+    </production>
+    <presentationSeries>
+        <id>4266487647000</id>
+        <parentId>4266486229000</parentId>
+        <title>Volvorøveren</title>
+        <genre>Dokumentar</genre>
+        <genreCode>2.0</genreCode>
+        <genrePrintcode>Dokumentar</genrePrintcode>
+        <seasonNumber>1</seasonNumber>
+        <episodeNumberingValid>false</episodeNumberingValid>
+        <productionYear>2023</productionYear>
+        <seasonTitle>Volvorøveren</seasonTitle>
+        <totalNumberOfEpisodes>3</totalNumberOfEpisodes>
+        <syncProductionYear>true</syncProductionYear>
+        <syncSeason>true</syncSeason>
+        <syncSeasonTitle>true</syncSeasonTitle>
+        <syncTotalNumberOfEpisodes>true</syncTotalNumberOfEpisodes>
+        <syncTitle>true</syncTitle>
+        <syncDescription>true</syncDescription>
+        <syncRitzauCategory>true</syncRitzauCategory>
+        <image1Sequence>0</image1Sequence>
+        <image1Type>DRTV Standard</image1Type>
+        <image1URN>
+            https://drbilleder-prod.s3.amazonaws.com/DR/0000/748/325/DR-0748325.jpg?v=289453097e49f8911ac709290137014b
+        </image1URN>
+        <image2Sequence>0</image2Sequence>
+        <image2Type>DRTV Poster</image2Type>
+        <image2URN>
+            https://drbilleder-prod.s3.amazonaws.com/DR/0000/748/327/DR-0748327.jpg?v=1270c134ae4be42f00722c178c89feb4
+        </image2URN>
+        <image3Sequence>0</image3Sequence>
+        <image3Type>Flow TV</image3Type>
+        <image3URN>
+            https://drbilleder-prod.s3.amazonaws.com/DR/0000/748/319/DR-0748319.jpg?v=170260def4e34783739a705f4b16c4f3
+        </image3URN>
+        <image4Sequence>0</image4Sequence>
+        <image4Type>DRTV Standard TG</image4Type>
+        <image4URN>
+            https://drbilleder-prod.s3.amazonaws.com/DR/0000/748/324/DR-0748324.jpg?v=3f89249e78dbaf6bbcc169a7af6d3af2
+        </image4URN>
+        <image5Sequence>0</image5Sequence>
+        <odCategory>
+            <name>Dokumentar</name>
+            <userCode>3.0</userCode>
+            <printCode>Dokumentar</printCode>
+        </odCategory>
+        <odCategory>
+            <name>Kultur</name>
+            <userCode>5.0</userCode>
+            <printCode>Kultur</printCode>
+        </odCategory>
+        <odCategory>
+            <name>Historie</name>
+            <userCode>11.0</userCode>
+            <printCode>Historie</printCode>
+        </odCategory>
+        <ageRating>
+            <code>MRAM-11</code>
+            <text>11 år</text>
+        </ageRating>
+    </presentationSeries>
+</presentationSeriesMessage>

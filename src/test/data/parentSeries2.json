@@ -1,0 +1,35 @@
+{
+  "action" : "CU",
+  "version" : "10",
+  "modifiedTime" : "2023-10-10T13:50:30.031+02:00",
+  "production" : {
+    "number" : "80000010338",
+    "type" : "TV",
+    "explicitContent" : "false"
+  },
+  "parentPresentationSeries" : {
+    "id" : "4099570482000",
+    "title" : "Os der lever",
+    "description" : "Dansk dokumentar fra 2023\nNiels Hausgaard gelejder os gennem den storslåede natur og menneskene på den nordjyske vestkyst. Vi besøger vendelboerne, der med humor tager os under armen og viser os deres drømme, frygt og søgen efter svar på livets store og små spørgsmål. Med Aalborg Symfoniorkesters storslåede arrangementer som lydbillede og Rubjerg Knude Fyr som pejlemærke sidder vi med ved niplebrættet og er til bal - helt tæt på alle OS DER LEVER i det vilde vest.\nInstruktør: Anne Svejgård Lund \nProduktionsselskab: Dune Production",
+    "genreCode" : "2.0",
+    "genreText" : "Dokumentar",
+    "genrePrintcode" : "Dokumentar",
+    "presentationTypeText" : "Film / Enkeltprogrammer",
+    "presentationTypeCode" : "5.0",
+    "presentationTypePrintcode" : "Film / Enkeltprogrammer",
+    "syncDescription" : "true",
+    "syncRitzauCategory" : "true",
+    "syncPresentationType" : "true",
+    "syncTitle" : "true",
+    "odCategory" : [ {
+      "name" : "Dokumentar",
+      "userCode" : "3.0",
+      "printCode" : "Dokumentar"
+    } ],
+    "ageRating" : {
+      "code" : "MRAM-NOT-RATED",
+      "text" : "Ikke vurderet"
+    }
+  },
+  "touched" : 1696938630325
+}

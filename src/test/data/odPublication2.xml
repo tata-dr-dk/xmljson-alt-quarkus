@@ -1,0 +1,38 @@
+<odPublicationMessage>
+    <action>CU</action>
+    <version>12</version>
+    <modifiedTime>2023-10-10T12:50:53.484</modifiedTime>
+    <production>
+        <number>12422343412</number>
+        <type>Radio</type>
+    </production>
+    <odPublication>
+        <id>4944909496812</id>
+        <title>P2 Koncerten - DR Pigekoret i mørke</title>
+        <transmissionId>4180355943812</transmissionId>
+        <description>Oplev DR Pigekoret for første gang med deres nye chefdirigent, Charlotte Rowan, når alt lyset i DR
+            Koncertsalen slukkes, og der synges koncert i komplet mørke.
+            Zachary Hatcher, harpe.
+            DR Pigekoret.
+            Dirigent: Charlotte Rowan.
+            (DR Koncertsal, 8. oktober).
+            Ca. 21:10 kan du høre en helt ny klaverkvartet af pianisten Ramez Mhaanna. Han spiller selv sammen med
+            Christine Bernsted, violin, Marie Louise Broholt Jensen, bratsch og Toke Møldrup, cello.
+            (Flintholm Kirke, Frederiksberg. 20. september).
+            Vært: Louise Hjorth.
+        </description>
+        <startTime>2023-10-10T17:20:00.000</startTime>
+        <endTime>2023-11-08T22:59:00.000</endTime>
+        <geofiltered>false</geofiltered>
+        <drmProtected>false</drmProtected>
+        <downloadable>false</downloadable>
+        <brandingChannel>P2D</brandingChannel>
+        <brandingChannelName>DR P2</brandingChannelName>
+        <platforms>
+            <platform>DR LYD</platform>
+        </platforms>
+        <broadcastChannel>P2D</broadcastChannel>
+        <broadcastChannelName>DR P2</broadcastChannelName>
+        <broadcastTime>2023-10-10T00:00:00.000</broadcastTime>
+    </odPublication>
+</odPublicationMessage>

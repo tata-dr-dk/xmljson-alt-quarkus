@@ -1,0 +1,49 @@
+{
+  "action" : "CU",
+  "version" : "14",
+  "modifiedTime" : "2023-10-10T14:41:17.162+02:00",
+  "production" : {
+    "number" : "12422343411",
+    "type" : "Radio"
+  },
+  "flowPublication" : {
+    "id" : "4180357284812",
+    "title" : "P2 Koncerten - Meditationskoncert med DR Vokalensemblet",
+    "description" : "Luk øjnene og få åndedrættet helt i ro. DR Vokalensemblet og cellist Richard Krug lader klangene folde sig ud i Vor Frue Kirkes store kirkerum med musik der giver plads til den indre stilhed og eftertænksomhed.  \nDR Vokalensemblet.  \nRichard Krug, cello. \nDirigent: Martina Batic. \n(Vor Frue Kirke i København. 7. oktober). \nVært: Celine Haastrup.",
+    "broadcastDate" : "2023-10-14",
+    "transmissionStartTime" : "2023-10-14T12:15:00.000+02:00",
+    "transmissionEndTime" : "2023-10-14T15:00:00.000+02:00",
+    "channelPresentationName" : "DR P2",
+    "channelPresentationCode" : "P2D",
+    "live" : "false",
+    "rerun" : "true",
+    "numberOfBlocks" : "1",
+    "quickReprise" : "true",
+    "streamingLive" : "false",
+    "streamingOd" : "false",
+    "reconciled" : "false",
+    "blocks" : [ {
+      "id" : "4180357285813",
+      "description" : "Luk øjnene og få åndedrættet helt i ro. DR Vokalensemblet og cellist Richard Krug lader klangene folde sig ud i Vor Frue Kirkes store kirkerum med musik der giver plads til den indre stilhed og eftertænksomhed.  \nDR Vokalensemblet.  \nRichard Krug, cello. \nDirigent: Martina Batic. \n(Vor Frue Kirke i København. 7. oktober). \nVært: Celine Haastrup.\n(Genudsendelse fra mandag).",
+      "partNumber" : "1",
+      "broadcastDate" : "2023-10-14",
+      "startTimeAnnounced" : "2023-10-14T12:15:00.000+02:00",
+      "startTimeSlot" : "2023-10-14T12:15:00.000+02:00",
+      "stopTimeSlot" : "2023-10-14T15:00:00.000+02:00",
+      "printable" : "true",
+      "epgrerun" : "true",
+      "timeAllocations" : [ {
+        "id" : "4180357290321",
+        "type" : "Segment of program",
+        "events" : [ {
+          "id" : "4180357291327",
+          "title" : "P2 Koncerten - Meditationskoncert med DR Vokalensemblet",
+          "startTimePresentation" : "2023-10-14T12:15:00.000+02:00",
+          "stopTimePresentation" : "2023-10-14T15:00:00.000+02:00",
+          "live" : "false"
+        } ]
+      } ]
+    } ]
+  },
+  "touched" : 1696941677840
+}

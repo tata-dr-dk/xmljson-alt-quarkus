@@ -1,0 +1,58 @@
+{
+  "action" : "CU",
+  "version" : "9",
+  "modifiedTime" : "2023-10-10T14:41:04.316+02:00",
+  "production" : {
+    "number" : "00212318001",
+    "type" : "TV"
+  },
+  "presentationSeries" : {
+    "id" : "4266487647000",
+    "parentId" : "4266486229000",
+    "title" : "Volvorøveren",
+    "genre" : "Dokumentar",
+    "genreCode" : "2.0",
+    "genrePrintcode" : "Dokumentar",
+    "seasonNumber" : "1",
+    "episodeNumberingValid" : "false",
+    "productionYear" : "2023",
+    "seasonTitle" : "Volvorøveren",
+    "totalNumberOfEpisodes" : "3",
+    "syncProductionYear" : "true",
+    "syncSeason" : "true",
+    "syncSeasonTitle" : "true",
+    "syncTotalNumberOfEpisodes" : "true",
+    "syncTitle" : "true",
+    "syncDescription" : "true",
+    "syncRitzauCategory" : "true",
+    "image1Sequence" : "0",
+    "image1Type" : "DRTV Standard",
+    "image1URN" : "https://drbilleder-prod.s3.amazonaws.com/DR/0000/748/325/DR-0748325.jpg?v=289453097e49f8911ac709290137014b",
+    "image2Sequence" : "0",
+    "image2Type" : "Flow TV",
+    "image2URN" : "https://drbilleder-prod.s3.amazonaws.com/DR/0000/748/319/DR-0748319.jpg?v=170260def4e34783739a705f4b16c4f3",
+    "image3Sequence" : "0",
+    "image3Type" : "DRTV Standard TG",
+    "image3URN" : "https://drbilleder-prod.s3.amazonaws.com/DR/0000/748/324/DR-0748324.jpg?v=3f89249e78dbaf6bbcc169a7af6d3af2",
+    "image4Sequence" : "0",
+    "image5Sequence" : "0",
+    "odCategory" : [ {
+      "name" : "Dokumentar",
+      "userCode" : "3.0",
+      "printCode" : "Dokumentar"
+    }, {
+      "name" : "Kultur",
+      "userCode" : "5.0",
+      "printCode" : "Kultur"
+    }, {
+      "name" : "Historie",
+      "userCode" : "11.0",
+      "printCode" : "Historie"
+    } ],
+    "ageRating" : {
+      "code" : "MRAM-11",
+      "text" : "11 år"
+    }
+  },
+  "touched" : 1696941664615
+}

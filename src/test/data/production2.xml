@@ -1,0 +1,116 @@
+<productionMessage>
+    <action>CU</action>
+    <version>16</version>
+    <modifiedTime>2023-10-10T12:42:48.832</modifiedTime>
+    <production>
+        <number>00122355450</number>
+        <oid>4278510839527</oid>
+        <parentNumber>00122353001</parentNumber>
+        <presentationSeriesId>4278374618000</presentationSeriesId>
+        <type>TV</type>
+        <transmissionType>episode</transmissionType>
+        <title>Seneste nyt fra TVA Live</title>
+        <titleAlternative>Seneste nyt fra TV Avisen</titleAlternative>
+        <presentationEpisodeNumber>246</presentationEpisodeNumber>
+        <seriesTitle>Seneste nyt fra TVA Live</seriesTitle>
+        <parentseriesTitle>Seneste nyt fra TVA Live</parentseriesTitle>
+        <category>Nyheder</category>
+        <targetGroup>VOKSNE</targetGroup>
+        <intention>AT INFORMERE</intention>
+        <form>Nyhedsuds._Journalistiske programmer</form>
+        <frequency>ANDEN FREKVENS</frequency>
+        <origin>EGENPRODUKTION (DR, TV2 EL. TV3)</origin>
+        <prodmode>DIREKTE</prodmode>
+        <series>false</series>
+        <ownProduction>true</ownProduction>
+        <content>SAMFUNDSFORHOLD (FAKTA)</content>
+        <year>2023</year>
+        <genreCode>9.0</genreCode>
+        <genreText>Nyheder &amp; Aktualitet</genreText>
+        <genrePrintcode>Nyheder &amp; Aktualitet</genrePrintcode>
+        <country>DANMARK</country>
+        <subjectcountry>IKKE GEOGRAFISK BESTEMT</subjectcountry>
+        <createTime>2023-01-16T11:18:25.947</createTime>
+        <duration>
+            PT505M12.360S
+        </duration>
+        <audioDescription>false</audioDescription>
+        <subtitleMode>LIVE</subtitleMode>
+        <mediaAsset>
+            <id>0106046</id>
+            <preferred>true</preferred>
+            <canBeUsedForBroadcasting>true</canBeUsedForBroadcasting>
+            <element>
+                <id>SUB 065606</id>
+                <sequenceNumber>1</sequenceNumber>
+                <type>subtitle</type>
+                <rfb>false</rfb>
+            </element>
+            <element>
+                <id>video 039498</id>
+                <sequenceNumber>1</sequenceNumber>
+                <type>video</type>
+                <aspectRatioCode>16:9</aspectRatioCode>
+                <aspectRatioText>HD</aspectRatioText>
+                <aspectRatioPrintcode>16:9</aspectRatioPrintcode>
+            </element>
+            <expression>Default</expression>
+        </mediaAsset>
+        <seasonNumber>2023</seasonNumber>
+        <presentationTypeText>Nyheder</presentationTypeText>
+        <presentationTypeCode>4.0</presentationTypeCode>
+        <presentationTypePrintcode>Nyheder</presentationTypePrintcode>
+        <productRegions>
+            <productRegion>DANMARK</productRegion>
+            <productRegion>IKKE GEOGRAFISK BESTEMT</productRegion>
+        </productRegions>
+        <image1Sequence>0</image1Sequence>
+        <image1Type>DRTV Standard</image1Type>
+        <image1URN>
+            https://drbilleder-prod.s3.amazonaws.com/DR/0000/748/326/DR-0748326.jpg?v=caf44ed6e2d6f90b6dd2b87f119b02f2
+        </image1URN>
+        <image2Sequence>0</image2Sequence>
+        <image3Sequence>0</image3Sequence>
+        <image4Sequence>0</image4Sequence>
+        <image5Sequence>0</image5Sequence>
+        <odCategory>
+            <name>Nyheder og Aktualitet</name>
+            <userCode>2.0</userCode>
+            <printCode>Nyheder og Aktualitet</printCode>
+        </odCategory>
+        <availableFrom>2023-10-10T06:30:00.000</availableFrom>
+        <availableFromWriteProtect>false</availableFromWriteProtect>
+        <explicitContent>false</explicitContent>
+        <ageRating>
+            <code>MRAM-EXCEPT</code>
+            <text>Skal ikke vurderes</text>
+        </ageRating>
+        <personalization>
+            <form>
+                <code>1.1.0.0</code>
+                <text>Nyhedsuds._Journalistiske programmer</text>
+                <path>Journalistiske programmer|Nyhedsuds._Journalistiske programmer</path>
+            </form>
+            <content>
+                <code>7.0.0.0</code>
+                <text>ANDET</text>
+                <path>ANDET</path>
+            </content>
+            <targetGroup>
+                <code>2.0.0.0</code>
+                <text>VOKSNE</text>
+                <path>VOKSNE</path>
+            </targetGroup>
+        </personalization>
+        <keywordsEditorialPTaxTop>
+            <name>Nyheder</name>
+            <userCode>2.0</userCode>
+            <printCode>Nyheder</printCode>
+        </keywordsEditorialPTaxTop>
+        <keywordsEditorialPTaxSub>
+            <name>Nyheder@nyheder</name>
+            <userCode>2.2</userCode>
+            <printCode>Nyheder</printCode>
+        </keywordsEditorialPTaxSub>
+    </production>
+</productionMessage>

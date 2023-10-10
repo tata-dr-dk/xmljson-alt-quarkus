@@ -1,0 +1,42 @@
+<parentPresentationSeriesMessage>
+    <action>CU</action>
+    <version>10</version>
+    <modifiedTime>2023-10-10T11:50:30.031</modifiedTime>
+    <production>
+        <number>80000010338</number>
+        <type>TV</type>
+        <explicitContent>false</explicitContent>
+    </production>
+    <parentPresentationSeries>
+        <id>4099570482000</id>
+        <title>Os der lever</title>
+        <description>Dansk dokumentar fra 2023
+            Niels Hausgaard gelejder os gennem den storslåede natur og menneskene på den nordjyske vestkyst. Vi besøger
+            vendelboerne, der med humor tager os under armen og viser os deres drømme, frygt og søgen efter svar på
+            livets store og små spørgsmål. Med Aalborg Symfoniorkesters storslåede arrangementer som lydbillede og
+            Rubjerg Knude Fyr som pejlemærke sidder vi med ved niplebrættet og er til bal - helt tæt på alle OS DER
+            LEVER i det vilde vest.
+            Instruktør: Anne Svejgård Lund
+            Produktionsselskab: Dune Production
+        </description>
+        <genreCode>2.0</genreCode>
+        <genreText>Dokumentar</genreText>
+        <genrePrintcode>Dokumentar</genrePrintcode>
+        <presentationTypeText>Film / Enkeltprogrammer</presentationTypeText>
+        <presentationTypeCode>5.0</presentationTypeCode>
+        <presentationTypePrintcode>Film / Enkeltprogrammer</presentationTypePrintcode>
+        <syncDescription>true</syncDescription>
+        <syncRitzauCategory>true</syncRitzauCategory>
+        <syncPresentationType>true</syncPresentationType>
+        <syncTitle>true</syncTitle>
+        <odCategory>
+            <name>Dokumentar</name>
+            <userCode>3.0</userCode>
+            <printCode>Dokumentar</printCode>
+        </odCategory>
+        <ageRating>
+            <code>MRAM-NOT-RATED</code>
+            <text>Ikke vurderet</text>
+        </ageRating>
+    </parentPresentationSeries>
+</parentPresentationSeriesMessage>
