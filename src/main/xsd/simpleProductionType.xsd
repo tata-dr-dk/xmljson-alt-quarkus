@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:import schemaLocation="shared.xsd" />
+
+    <xs:complexType name="simpleProductionType">
+        <xs:sequence>
+            <xs:element name="number" type="xs:string"/>
+            <xs:element name="oid" minOccurs="0" type="xs:string"/>
+            <xs:element name="parentNumber" minOccurs="0" type="xs:string"/>
+            <xs:element name="presentationSeriesId" minOccurs="0" type="xs:string"/>
+            <xs:element name="type" type="xs:string"/>
+            <xs:element name="transmissionType" minOccurs="0" type="xs:string"/>
+            <xs:element name="title" type="xs:string"/>
+            <xs:element name="titles" minOccurs="0" maxOccurs="unbounded" type="titleType" />
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>

@@ -1,62 +1,95 @@
 <flowPublicationMessage>
     <action>CU</action>
     <version>14</version>
-    <modifiedTime>2023-10-10T12:41:17.162</modifiedTime>
+    <modifiedTime>2023-11-01T11:41:38.282</modifiedTime>
     <production>
-        <number>12422343411</number>
+        <number>15452338455</number>
         <type>Radio</type>
     </production>
     <flowPublication>
-        <id>4180357284812</id>
-        <title>P2 Koncerten - Meditationskoncert med DR Vokalensemblet</title>
-        <description>Luk øjnene og få åndedrættet helt i ro. DR Vokalensemblet og cellist Richard Krug lader klangene
-            folde sig ud i Vor Frue Kirkes store kirkerum med musik der giver plads til den indre stilhed og
-            eftertænksomhed.
-            DR Vokalensemblet.
-            Richard Krug, cello.
-            Dirigent: Martina Batic.
-            (Vor Frue Kirke i København. 7. oktober).
-            Vært: Celine Haastrup.
+        <id>4192407972812</id>
+        <title>Nyborg Station</title>
+        <description>På Nyborg Station mødes aktuelle sange med klassikerne. Her er gæster fra musikkens verden, musik
+            på ægte vinyl, klip fra musikkens historie og altid et bud på dagens bedste cover.
+            Vært: Jesper Nyborg.
         </description>
-        <broadcastDate>2023-10-14</broadcastDate>
-        <transmissionStartTime>2023-10-14T10:15:00.000</transmissionStartTime>
-        <transmissionEndTime>2023-10-14T13:00:00.000</transmissionEndTime>
-        <channelPresentationName>DR P2</channelPresentationName>
-        <channelPresentationCode>P2D</channelPresentationCode>
+        <distributor>DR Produktion</distributor>
+        <broadcastDate>2023-11-10</broadcastDate>
+        <transmissionStartTime>2023-11-10T13:03:00.000</transmissionStartTime>
+        <transmissionEndTime>2023-11-10T15:00:00.000</transmissionEndTime>
+        <channelPresentationName>DR P5</channelPresentationName>
+        <channelPresentationCode>P5D</channelPresentationCode>
         <live>false</live>
-        <rerun>true</rerun>
-        <numberOfBlocks>1</numberOfBlocks>
-        <quickReprise>true</quickReprise>
+        <rerun>false</rerun>
+        <numberOfBlocks>3</numberOfBlocks>
+        <quickReprise>false</quickReprise>
         <streamingLive>false</streamingLive>
-        <streamingOd>false</streamingOd>
+        <streamingOd>true</streamingOd>
+        <streamingLogicDestination>OAP - on demand og podcast audio (WEBCMS)</streamingLogicDestination>
         <reconciled>false</reconciled>
         <blocks>
-            <id>4180357285813</id>
-            <description>Luk øjnene og få åndedrættet helt i ro. DR Vokalensemblet og cellist Richard Krug lader
-                klangene folde sig ud i Vor Frue Kirkes store kirkerum med musik der giver plads til den indre stilhed
-                og eftertænksomhed.
-                DR Vokalensemblet.
-                Richard Krug, cello.
-                Dirigent: Martina Batic.
-                (Vor Frue Kirke i København. 7. oktober).
-                Vært: Celine Haastrup.
-                (Genudsendelse fra mandag).
+            <id>4192407973813</id>
+            <description>På Nyborg Station mødes aktuelle sange med klassikerne. Her er gæster fra musikkens verden,
+                musik på ægte vinyl, klip fra musikkens historie og altid et bud på dagens bedste cover.
+                Vært: Jesper Nyborg.
             </description>
             <partNumber>1</partNumber>
-            <broadcastDate>2023-10-14</broadcastDate>
-            <startTimeAnnounced>2023-10-14T10:15:00.000</startTimeAnnounced>
-            <startTimeSlot>2023-10-14T10:15:00.000</startTimeSlot>
-            <stopTimeSlot>2023-10-14T13:00:00.000</stopTimeSlot>
+            <broadcastDate>2023-11-10</broadcastDate>
+            <startTimeAnnounced>2023-11-10T13:03:00.000</startTimeAnnounced>
+            <startTimeSlot>2023-11-10T13:03:00.000</startTimeSlot>
+            <stopTimeSlot>2023-11-10T14:00:00.000</stopTimeSlot>
             <printable>true</printable>
-            <epgrerun>true</epgrerun>
+            <epgrerun>false</epgrerun>
             <timeAllocations>
-                <id>4180357290321</id>
+                <id>4192407978321</id>
                 <type>Segment of program</type>
                 <events>
-                    <id>4180357291327</id>
-                    <title>P2 Koncerten - Meditationskoncert med DR Vokalensemblet</title>
-                    <startTimePresentation>2023-10-14T10:15:00.000</startTimePresentation>
-                    <stopTimePresentation>2023-10-14T13:00:00.000</stopTimePresentation>
+                    <id>4192407979327</id>
+                    <title>Nyborg Station</title>
+                    <startTimePresentation>2023-11-10T13:03:00.000</startTimePresentation>
+                    <stopTimePresentation>2023-11-10T14:00:00.000</stopTimePresentation>
+                    <live>false</live>
+                </events>
+            </timeAllocations>
+        </blocks>
+        <blocks>
+            <id>4192407980813</id>
+            <partNumber>2</partNumber>
+            <broadcastDate>2023-11-10</broadcastDate>
+            <startTimeAnnounced>2023-11-10T14:03:00.000</startTimeAnnounced>
+            <startTimeSlot>2023-11-10T14:03:00.000</startTimeSlot>
+            <stopTimeSlot>2023-11-10T14:30:00.000</stopTimeSlot>
+            <printable>false</printable>
+            <epgrerun>false</epgrerun>
+            <timeAllocations>
+                <id>4192407984321</id>
+                <type>Segment of program</type>
+                <events>
+                    <id>4192407985327</id>
+                    <title>Nyborg Station</title>
+                    <startTimePresentation>2023-11-10T14:03:00.000</startTimePresentation>
+                    <stopTimePresentation>2023-11-10T14:30:00.000</stopTimePresentation>
+                    <live>false</live>
+                </events>
+            </timeAllocations>
+        </blocks>
+        <blocks>
+            <id>4192407986813</id>
+            <partNumber>3</partNumber>
+            <broadcastDate>2023-11-10</broadcastDate>
+            <startTimeAnnounced>2023-11-10T14:32:00.000</startTimeAnnounced>
+            <startTimeSlot>2023-11-10T14:32:00.000</startTimeSlot>
+            <stopTimeSlot>2023-11-10T15:00:00.000</stopTimeSlot>
+            <printable>false</printable>
+            <epgrerun>false</epgrerun>
+            <timeAllocations>
+                <id>4192407990321</id>
+                <type>Segment of program</type>
+                <events>
+                    <id>4192407991327</id>
+                    <title>Nyborg Station</title>
+                    <startTimePresentation>2023-11-10T14:32:00.000</startTimePresentation>
+                    <stopTimePresentation>2023-11-10T15:00:00.000</stopTimePresentation>
                     <live>false</live>
                 </events>
             </timeAllocations>

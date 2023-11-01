@@ -1,19 +1,29 @@
 package dk.dr.drip.adapters.cloud.xmljsonalttest;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
-import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
-import io.quarkus.jackson.ObjectMapperCustomizer;
-import jakarta.inject.Singleton;
+
+import jakarta.enterprise.inject.Produces;
 import org.apache.camel.Configuration;
 
-import java.util.TimeZone;
+import java.util.Arrays;
 
 @Configuration
 public class Config {
 
-    public void customize(ObjectMapper mapper) {
-        mapper.registerModule(new JavaTimeModule());
-        mapper.setTimeZone(TimeZone.getTimeZone("Europe/Copenhagen"));
-        mapper.configure(SerializationFeature.WRITE_DATES_AS_TIMESTAMPS, false);
+    @Produces
+    public XmlDateFormatter getDateFormatter() {
+        return new XmlDateFormatter(Arrays.asList(
+                    "//odPublicationMessage/odPublication/startTime/text()"
+                ,   "//odPublicationMessage/odPublication/endTime/text()"
+                ,   "//modifiedTime/text()"
+                ,   "//transmissionStartTime/text()"
+                ,   "//transmissionEndTime/text()"
+                ,   "//startTimeAnnounced/text()"
+                ,   "//startTimeSlot/text()"
+                ,   "//stopTimeSlot/text()"
+                ,   "//startTimePlayout/text()"
+                ,   "//stopTimePlayout/text()"
+                ,   "//startTimePresentation/text()"
+                ,   "//stopTimePresentation/text()"
+                ,   "//productionMessage/production/availableFrom/text()"
+        ));
     }
 }

@@ -8,11 +8,9 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.time.LocalDate;
 
 @QuarkusTest
 class XmlToJsonRouteTest extends CamelQuarkusTestSupport {
@@ -64,6 +62,7 @@ class XmlToJsonRouteTest extends CamelQuarkusTestSupport {
         template.sendBody("direct:flow-publication-converter", getXmlMessage("flowPublication1"));
         flowEndpoint.assertIsSatisfied();
         outMessage = flowEndpoint.getExchanges().get(0).getIn().getBody(String.class);
+        // str.replaceAll("\\s+"," ") replaces all spaces, \n etc. with " "
         Assertions.assertEquals(getJsonMessage("flowPublication1"), outMessage);
 
         // case 2
@@ -143,7 +142,7 @@ class XmlToJsonRouteTest extends CamelQuarkusTestSupport {
     }
 
 
-    //@Test
+    @Test
     void testChannel() throws Exception {
         MockEndpoint flowEndpoint = getMockEndpoint("mock:result");
         String outMessage;

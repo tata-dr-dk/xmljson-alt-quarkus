@@ -1,14 +1,14 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0">
-    <xs:element name="flowPublicationMessage" type="flowPublicationMessageType"/>
+    <xs:import schemaLocation="simpleProductionType.xsd" />
 
-    <xs:import schemaLocation="production.xsd" />
+    <xs:element name="flowPublicationMessage" type="flowPublicationMessageType"/>
 
     <xs:complexType name="flowPublicationMessageType">
         <xs:sequence>
             <xs:element name="action" type="xs:string"/>
             <xs:element name="version" type="xs:string" minOccurs="0"/>
             <xs:element name="modifiedTime" type="xs:dateTime" />
-            <xs:element name="production" type="productionType" minOccurs="0"/>
+            <xs:element name="production" type="simpleProductionType" minOccurs="0"/>
             <xs:element name="flowPublication" type="flowPublicationType"/>
         </xs:sequence>
     </xs:complexType>
@@ -93,7 +93,7 @@
             <xs:element name="technicalSubtextType" type="xs:string" minOccurs="0" />
             <xs:element name="videoAspectRatio" type="xs:string" minOccurs="0"/>
             <xs:element name="audio" type="xs:string" minOccurs="0"/>
-            <xs:element name="production" type="productionType" minOccurs="0" />
+            <xs:element name="production" type="simpleProductionType" minOccurs="0" />
             <xs:element name="remarks" type="xs:string" minOccurs="0"/>
         </xs:sequence>
     </xs:complexType>

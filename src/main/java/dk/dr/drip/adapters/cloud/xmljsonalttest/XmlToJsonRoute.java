@@ -7,23 +7,20 @@ import com.fasterxml.jackson.databind.*;
 import com.fasterxml.jackson.databind.json.JsonMapper;
 import com.fasterxml.jackson.databind.module.SimpleModule;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
-import generated.FlowPublicationMessage;
 import jakarta.enterprise.context.ApplicationScoped;
-import jakarta.xml.bind.JAXB;
-import org.apache.camel.Exchange;
-import org.apache.camel.Processor;
+import jakarta.inject.Inject;
 import org.apache.camel.builder.endpoint.EndpointRouteBuilder;
 import org.apache.camel.converter.jaxb.JaxbDataFormat;
-import org.apache.camel.model.dataformat.JsonLibrary;
 
-import javax.xml.catalog.Catalog;
-import java.io.File;
 import java.io.IOException;
 import java.util.TimeZone;
 import org.apache.camel.component.jackson.JacksonDataFormat;
+import org.w3c.dom.Document;
 
 @ApplicationScoped
 public class XmlToJsonRoute extends EndpointRouteBuilder {
+    @Inject
+    XmlDateFormatter dateFormatter;
 
     @Override
     public void configure() {
@@ -36,8 +33,17 @@ public class XmlToJsonRoute extends EndpointRouteBuilder {
         dataFormat.setPrettyPrint(true);
 
         from(direct("flow-publication-converter")).routeId("flow-publication-route")
+                .log("in: \n${body}\n")
+                .process(exchange -> {
+                    Document body = exchange.getIn().getBody(Document.class);
+                    exchange.getIn().setBody(dateFormatter.formatDates(body));
+                })
+                //.bean(dateFormatter, "formatDates")
+                .log("trx: \n${body}\n")
                 .unmarshal(jaxb)
+                .log("startTimePresentation: \n${body.flowPublication.blocks[0].timeAllocations[0].events[0].startTimePresentation}")
                 .marshal(dataFormat)
+                .log("out: \n${body}\n")
                 .to(file("target/test-output-files")).id("flow-last-endpoint")
                 .end();
     }
@@ -60,10 +66,17 @@ public class XmlToJsonRoute extends EndpointRouteBuilder {
                 .setTimeZone(TimeZone.getTimeZone("Europe/Copenhagen"));
 
         // booleanS as String, "false" instead of false
-        SimpleModule module = new SimpleModule().addSerializer(Boolean.class, new JsonSerializer<Boolean>() {
+        SimpleModule module = new SimpleModule().addSerializer(Boolean.class, new JsonSerializer<>() {
             @Override
             public void serialize(Boolean value, JsonGenerator gen, SerializerProvider serializers) throws IOException {
                 gen.writeString(value.toString());
+            }
+        });
+        module.addSerializer(generated.PlatformsType.class, new JsonSerializer<>() {
+            @Override
+            public void serialize(generated.PlatformsType value, JsonGenerator gen, SerializerProvider serializers) throws IOException {
+                String[] array = value.getPlatforms().toArray(new String[0]);
+                gen.writeArray(array,0 ,array.length);
             }
         });
 
