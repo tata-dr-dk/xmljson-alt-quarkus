@@ -1,35 +1,47 @@
 {
   "action" : "CU",
   "version" : "10",
-  "modifiedTime" : "2023-10-10T13:50:30.031+02:00",
+  "modifiedTime" : "2023-11-15T11:09:37.562+01:00",
   "production" : {
-    "number" : "80000010338",
+    "number" : "80000001006",
     "type" : "TV",
-    "explicitContent" : "false"
+    "explicitContent" : "false",
+    "keywordsThesaurus" : "Forsvundne personer; Adoption"
   },
   "parentPresentationSeries" : {
-    "id" : "4099570482000",
-    "title" : "Os der lever",
-    "description" : "Dansk dokumentar fra 2023\nNiels Hausgaard gelejder os gennem den storslåede natur og menneskene på den nordjyske vestkyst. Vi besøger vendelboerne, der med humor tager os under armen og viser os deres drømme, frygt og søgen efter svar på livets store og små spørgsmål. Med Aalborg Symfoniorkesters storslåede arrangementer som lydbillede og Rubjerg Knude Fyr som pejlemærke sidder vi med ved niplebrættet og er til bal - helt tæt på alle OS DER LEVER i det vilde vest.\nInstruktør: Anne Svejgård Lund \nProduktionsselskab: Dune Production",
+    "id" : "841605994000",
+    "title" : "Sporløs",
+    "description" : "Rørende programserie om danskere som rejser ud i verden på eventyr efter forsvundne slægtninge. De medvirkende håber at genskabe kontakten til nære familiemedlemmer, når de søger efter deres biologiske rødder.",
     "genreCode" : "2.0",
     "genreText" : "Dokumentar",
     "genrePrintcode" : "Dokumentar",
-    "presentationTypeText" : "Film / Enkeltprogrammer",
-    "presentationTypeCode" : "5.0",
-    "presentationTypePrintcode" : "Film / Enkeltprogrammer",
+    "presentationTypeText" : "Programrække",
+    "presentationTypeCode" : "2.0",
+    "presentationTypePrintcode" : "Programrække",
     "syncDescription" : "true",
     "syncRitzauCategory" : "true",
     "syncPresentationType" : "true",
     "syncTitle" : "true",
+    "image1Sequence" : "0",
+    "image1Type" : "DRTV Standard",
+    "image1URN" : "https://drbilleder-prod.s3.amazonaws.com/DR/0000/747/034/DR-0747034.jpg?v=c51a67a066b843f1340c877c27facd75",
+    "image2Sequence" : "0",
+    "image2Type" : "Flow TV",
+    "image2URN" : "https://drbilleder-prod.s3.amazonaws.com/DR/0000/747/034/DR-0747034.jpg?v=c51a67a066b843f1340c877c27facd75",
+    "image3Sequence" : "0",
+    "image3Type" : "DRTV Standard TG",
+    "image3URN" : "https://drbilleder-prod.s3.amazonaws.com/DR/0000/747/035/DR-0747035.jpg?v=0149ea7cb4905b97ffdbdf38c1b48aa0",
+    "image4Sequence" : "0",
+    "image5Sequence" : "0",
     "odCategory" : [ {
       "name" : "Dokumentar",
       "userCode" : "3.0",
       "printCode" : "Dokumentar"
     } ],
     "ageRating" : {
-      "code" : "MRAM-NOT-RATED",
-      "text" : "Ikke vurderet"
+      "code" : "MRAM-07",
+      "text" : "7 år"
     }
   },
-  "touched" : 1696938630325
+  "touched" : 1700042977855
 }

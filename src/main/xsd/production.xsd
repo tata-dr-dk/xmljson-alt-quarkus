@@ -42,7 +42,7 @@
             <xs:element name="costcenter" minOccurs="0" type="xs:string"/>
             <xs:element name="costcenterCode" minOccurs="0" type="xs:string"/>
             <xs:element name="costcenterPrintcode" minOccurs="0" type="xs:string"/>
-            <xs:element name="series" type="xs:boolean"/>
+            <xs:element name="series" minOccurs="0" type="xs:boolean"/>
             <xs:element name="ownProduction" minOccurs="0" type="xs:boolean"/>
             <xs:element name="content" minOccurs="0" type="xs:string"/>
             <xs:element name="year" minOccurs="0" type="xs:string"/>
@@ -67,7 +67,7 @@
             <xs:element name="presentationTypeCode" type="xs:string" minOccurs="0"/>
             <xs:element name="presentationTypePrintcode" type="xs:string" minOccurs="0"/>
             <xs:element name="productTitleTemplate" type="xs:string" minOccurs="0"/>
-            <xs:element name="productRegions" type="productRegionsType" minOccurs="0" />
+            <xs:element name="productRegions" minOccurs="0" maxOccurs="unbounded" type="productRegionsType" />
             <xs:element name="image1Sequence" type="xs:string" minOccurs="0"/>
             <xs:element name="image1Type" type="xs:string" minOccurs="0"/>
             <xs:element name="image1URN" type="xs:string" minOccurs="0"/>
@@ -102,8 +102,8 @@
             <xs:element name="rectificationLink" type="xs:string" minOccurs="0"/>
             <xs:element name="rectificationLinkText" type="xs:string" minOccurs="0"/>
             <xs:element name="drtvTest1Prod" type="xs:string" minOccurs="0"/>
-            <xs:element name="ageRating" minOccurs="0" maxOccurs="1" type="ageRatingType" />
-            <xs:element name="personalization" minOccurs="0" maxOccurs="1" type="personalizationType" />
+            <xs:element name="ageRating" minOccurs="0" type="ageRatingType" />
+            <xs:element name="personalization" minOccurs="0" type="personalizationType" />
             <xs:element name="keywordsLocation" type="xs:string" minOccurs="0"/>
             <xs:element name="keywordsOrganization" type="xs:string" minOccurs="0"/>
             <xs:element name="keywordsPerson" type="xs:string" minOccurs="0"/>
@@ -115,7 +115,7 @@
             <xs:element name="presentBeforePublish" type="xs:boolean" minOccurs="0"/>			
             <xs:element name="ownedPresSeriesId" minOccurs="0" type="xs:string"/>
             <xs:element name="ownedParPresSeriesId" minOccurs="0" type="xs:string"/>
-            <xs:element name="keywordsEditorialPTaxTop" minOccurs="0" maxOccurs="1" type="woLotType" />
+            <xs:element name="keywordsEditorialPTaxTop" minOccurs="0" maxOccurs="unbounded" type="woLotType" />
             <xs:element name="keywordsEditorialPTaxSub" minOccurs="0" maxOccurs="unbounded" type="woLotType" />
             <xs:element name="odDuration" minOccurs="0" type="xs:string" />
        </xs:sequence>
@@ -139,7 +139,7 @@
 
     <xs:complexType name="productRegionsType">
         <xs:sequence>
-            <xs:element minOccurs="1" name="productRegion" maxOccurs="unbounded">
+            <xs:element name="productRegion" maxOccurs="unbounded">
                 <xs:simpleType>
                     <xs:restriction base="xs:string">
                         <xs:minLength value="1"/>
@@ -158,9 +158,9 @@
 
     <xs:complexType name="personalizationType">
         <xs:sequence>
-            <xs:element name="form" minOccurs="0" maxOccurs="1" type="personalizationListType"/>
-            <xs:element name="content" minOccurs="0" maxOccurs="1" type="personalizationListType"/>
-            <xs:element name="targetGroup" minOccurs="0" maxOccurs="1" type="personalizationListType"/>
+            <xs:element name="form" minOccurs="0" type="personalizationListType"/>
+            <xs:element name="content" minOccurs="0" type="personalizationListType"/>
+            <xs:element name="targetGroup" minOccurs="0" type="personalizationListType"/>
         </xs:sequence>
     </xs:complexType>
 

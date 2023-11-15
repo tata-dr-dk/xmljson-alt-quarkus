@@ -1,14 +1,14 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0">
     <xs:element name="odPublicationMessage" type="odPublicationMessageType"/>
 
-    <xs:import schemaLocation="production.xsd" />
+    <xs:import schemaLocation="simpleProductionType.xsd" />
 
     <xs:complexType name="odPublicationMessageType">
         <xs:sequence>
             <xs:element name="action" type="xs:string"/>
             <xs:element name="version" type="xs:string" minOccurs="0"/>
             <xs:element name="modifiedTime" type="xs:dateTime" />
-            <xs:element name="production" type="productionType"/>
+            <xs:element name="production" type="simpleProductionType"/>
             <xs:element name="odPublication" type="odPublicationType"/>
         </xs:sequence>
     </xs:complexType>
@@ -51,7 +51,7 @@
 
     <xs:complexType name="platformsType">
         <xs:sequence>
-            <xs:element minOccurs="1" name="platform" maxOccurs="unbounded">
+            <xs:element name="platform" maxOccurs="unbounded">
                 <xs:simpleType>
                     <xs:restriction base="xs:string">
                         <xs:minLength value="1"/>
@@ -63,7 +63,7 @@
 
     <xs:complexType name="substitutesIdsType">
         <xs:sequence>
-            <xs:element minOccurs="1" name="substitutesId" maxOccurs="unbounded">
+            <xs:element name="substitutesId" maxOccurs="unbounded">
                 <xs:simpleType>
                     <xs:restriction base="xs:string">
                         <xs:minLength value="1"/>
@@ -75,7 +75,7 @@
 
     <xs:complexType name="transmissionIdsType">
         <xs:sequence>
-            <xs:element minOccurs="1" name="transmissionId" maxOccurs="unbounded">
+            <xs:element name="transmissionId" maxOccurs="unbounded">
                 <xs:simpleType>
                     <xs:restriction base="xs:string">
                         <xs:minLength value="1"/>

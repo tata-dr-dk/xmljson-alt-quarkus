@@ -1,35 +1,57 @@
 {
   "action" : "CU",
   "version" : "10",
-  "modifiedTime" : "2023-10-10T13:51:34.433+02:00",
+  "modifiedTime" : "2023-11-15T11:33:24.911+01:00",
   "production" : {
-    "number" : "80000009950",
+    "number" : "80000007802",
     "type" : "TV",
-    "explicitContent" : "false"
+    "explicitContent" : "false",
+    "keywordsThesaurus" : "Kriminalteknik; Drab; Efterforskning"
   },
   "parentPresentationSeries" : {
-    "id" : "3664014207000",
-    "title" : "The Gullspång Miracle - DFI",
-    "description" : "Et tegn fra Gud får to norske søstre til at købe en lejlighed i den lille svenske by, Gullspång. Da de tropper op på ejendomsmæglerens kontor for at underskrive købskontrakten, får de et mindre chok. Foran dem sidder en fremmed kvinde, som ligner deres ældre søster på en prik - en søster, som begik selvmord 30 år tidligere. Hvad der begynder som en utrolig historie om en families genforening bliver snart en Pandoras æske, da alle tre kvinders liv kommer ud af kontrol i jagten efter sandheden.",
+    "id" : "2851781053000",
+    "title" : "Fældende beviser",
+    "description" : "Tidligere kriminalteknikere kaster lys over spektakulære danske sager. Og de giver et særligt indblik i, hvordan metode, videnskab og teknik fører til fældende beviser.",
     "genreCode" : "2.0",
     "genreText" : "Dokumentar",
     "genrePrintcode" : "Dokumentar",
-    "presentationTypeText" : "Film / Enkeltprogrammer",
-    "presentationTypeCode" : "5.0",
-    "presentationTypePrintcode" : "Film / Enkeltprogrammer",
+    "presentationTypeText" : "Programrække",
+    "presentationTypeCode" : "2.0",
+    "presentationTypePrintcode" : "Programrække",
     "syncDescription" : "true",
     "syncRitzauCategory" : "true",
     "syncPresentationType" : "true",
     "syncTitle" : "true",
+    "image1Sequence" : "0",
+    "image1Type" : "DRTV Standard",
+    "image1URN" : "https://drbilleder-prod.s3.amazonaws.com/DR/0000/542/262/DR-0542262.jpg?v=e41c7232834bb612c54ce0c1c1a8ab31",
+    "image2Sequence" : "0",
+    "image2Type" : "DRTV Poster",
+    "image2URN" : "https://drbilleder-prod.s3.amazonaws.com/DR/0000/754/440/DR-0754440.jpg?v=7d21cb29a80c3d5a7dffa7228925146f",
+    "image3Sequence" : "0",
+    "image3Type" : "Flow TV",
+    "image3URN" : "https://drbilleder-prod.s3.amazonaws.com/DR/0000/542/262/DR-0542262.jpg?v=e41c7232834bb612c54ce0c1c1a8ab31",
+    "image4Sequence" : "0",
+    "image4Type" : "DRTV Standard TG",
+    "image4URN" : "https://drbilleder-prod.s3.amazonaws.com/DR/0000/749/094/DR-0749094.jpg?v=2cfb426ed7baf32bd35a7f9062d781dd",
+    "image5Sequence" : "0",
     "odCategory" : [ {
       "name" : "Dokumentar",
       "userCode" : "3.0",
       "printCode" : "Dokumentar"
+    }, {
+      "name" : "Videnskab og teknologi",
+      "userCode" : "14.0",
+      "printCode" : "Videnskab og teknologi"
+    }, {
+      "name" : "Krimi",
+      "userCode" : "26.0",
+      "printCode" : "Krimi"
     } ],
     "ageRating" : {
-      "code" : "MRAM-07",
-      "text" : "7 år"
+      "code" : "MRAM-15",
+      "text" : "15 år"
     }
   },
-  "touched" : 1696938694724
+  "touched" : 1700044405227
 }

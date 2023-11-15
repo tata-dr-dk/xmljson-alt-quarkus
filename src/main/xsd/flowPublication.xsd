@@ -19,7 +19,7 @@
             <xs:element name="title" type="xs:string" minOccurs="0"/>
             <xs:element name="description" type="xs:string" minOccurs="0"/>
             <xs:element name="distributor" type="xs:string" minOccurs="0"/>
-            <xs:element name="broadcastDate" type="xs:date" minOccurs="0" />
+            <xs:element name="broadcastDate" type="xs:string" minOccurs="0" />
             <xs:element name="transmissionStartTime" type="xs:dateTime" minOccurs="0" />
             <xs:element name="transmissionEndTime" type="xs:dateTime" minOccurs="0" />
             <xs:element name="channelPresentationName" type="xs:string" minOccurs="0"/>
@@ -49,7 +49,7 @@
             <xs:element name="punchlineFlow" minOccurs="0" type="xs:string"/>
             <xs:element name="punchlineOD" minOccurs="0" type="xs:string"/>
             <xs:element name="partNumber" type="xs:integer" minOccurs="0"/>
-            <xs:element name="broadcastDate" type="xs:date" minOccurs="0" />
+            <xs:element name="broadcastDate" type="xs:string" minOccurs="0" />
             <xs:element name="startTimeAnnounced" type="xs:dateTime" minOccurs="0"/>
             <xs:element name="startTimeSlot" type="xs:dateTime" minOccurs="0"/>
             <xs:element name="stopTimeSlot" type="xs:dateTime" minOccurs="0"/>

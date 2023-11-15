@@ -1,130 +1,121 @@
 {
   "action" : "CU",
   "version" : "14",
-  "modifiedTime" : "2023-10-10T14:46:47.698+02:00",
+  "modifiedTime" : "2023-11-15T12:59:20.526+01:00",
   "production" : {
-    "number" : "00951516060",
+    "number" : "00951387090",
     "type" : "TV"
   },
   "flowPublication" : {
-    "id" : "4257644749812",
-    "title" : "Hammerslag 2015 (6)",
-    "description" : "Hammerslag er taget til Danmarks ældste by, Ribe. Her skal mæglerne gætte prisen på et gammelt byhus. Næste stop er Sædding - en forstad til Esbjerg, hvor mæglerne ser på et etplanshus i et børnevenligt kvarter. Og herfra videre til aftenens sidste bolig i attraktive Hjerting i et hus fra 1996 - men hvad er prisen?\nVært: Christian Degn",
+    "id" : "4652507238812",
+    "title" : "Ramasjang Rally",
+    "description" : "Spænd hjelmen! For nu er det blevet tid til endnu en kvartfinale i Danmarks sejeste sæbekasseræs - Ramasjang Rally. I dagens løb skal de flyvende Fodboldnørder køre imod Landsbystosserne. Der bliver fuld fart fremad, når de to hold skal køre ræs ned ad Striben, finde vej på specialbanen i labyrinten ved Egeskov Slot og - ikke mindst - ræse tre gange rundt på Ramasjang Rally Ringen. Hvilket hold er hurtigst og kvalificerer sig til semifinalerne?",
     "distributor" : "DR Produktion",
-    "broadcastDate" : "2023-10-10",
-    "transmissionStartTime" : "2023-10-10T14:02:19.360+02:00",
-    "transmissionEndTime" : "2023-10-10T14:48:54.440+02:00",
-    "channelPresentationName" : "DR1",
-    "channelPresentationCode" : "DR1",
+    "broadcastDate" : "2023-11-15",
+    "transmissionStartTime" : "2023-11-15T12:57:23.520+01:00",
+    "transmissionEndTime" : "2023-11-15T13:26:04.080+01:00",
+    "channelPresentationName" : "DR Ramasjang",
+    "channelPresentationCode" : "TVR",
     "live" : "false",
     "rerun" : "true",
-    "technicalSubtextType" : "TTV                      - Tekster fra tekst-TV",
     "numberOfBlocks" : "1",
     "quickReprise" : "false",
-    "videoAspectRatio" : "HD",
+    "videoAspectRatio" : "16:9",
     "streamingLive" : "false",
-    "streamingOd" : "true",
-    "streamingLogicDestination" : "OVP - on demand og podcast video (WEBCMS)",
+    "streamingOd" : "false",
     "reconciled" : "false",
     "blocks" : [ {
-      "id" : "4257644750813",
-      "description" : "Hammerslag er taget til Danmarks ældste by, Ribe. Her skal mæglerne gætte prisen på et gammelt byhus. Næste stop er Sædding - en forstad til Esbjerg, hvor mæglerne ser på et etplanshus i et børnevenligt kvarter. Og herfra videre til aftenens sidste bolig i attraktive Hjerting i et hus fra 1996 - men hvad er prisen?\nVært: Christian Degn",
+      "id" : "4652507239813",
+      "description" : "Spænd hjelmen! For nu er det blevet tid til endnu en kvartfinale i Danmarks sejeste sæbekasseræs - Ramasjang Rally. I dagens løb skal de flyvende Fodboldnørder køre imod Landsbystosserne. Der bliver fuld fart fremad, når de to hold skal køre ræs ned ad Striben, finde vej på specialbanen i labyrinten ved Egeskov Slot og - ikke mindst - ræse tre gange rundt på Ramasjang Rally Ringen. Hvilket hold er hurtigst og kvalificerer sig til semifinalerne?",
       "partNumber" : "1",
-      "broadcastDate" : "2023-10-10",
-      "startTimeAnnounced" : "2023-10-10T14:00:00.000+02:00",
-      "startTimeSlot" : "2023-10-10T14:02:19.360+02:00",
-      "stopTimeSlot" : "2023-10-10T14:48:54.440+02:00",
-      "startTimePlayout" : "2023-10-10T14:02:19.360+02:00",
-      "stopTimePlayout" : "2023-10-10T14:45:42.440+02:00",
+      "broadcastDate" : "2023-11-15",
+      "startTimeAnnounced" : "2023-11-15T12:50:00.000+01:00",
+      "startTimeSlot" : "2023-11-15T12:57:23.520+01:00",
+      "stopTimeSlot" : "2023-11-15T13:26:04.080+01:00",
+      "startTimePlayout" : "2023-11-15T13:00:30.020+01:00",
+      "stopTimePlayout" : "2023-11-15T13:28:54.160+01:00",
       "printable" : "true",
-      "epgrerun" : "true",
+      "epgrerun" : "false",
       "timeAllocations" : [ {
-        "id" : "4257644755321",
-        "type" : "Segment of program",
-        "events" : [ {
-          "id" : "4257644756327",
-          "title" : "Hammerslag 2015 (6)",
-          "startTimePresentation" : "2023-10-10T14:02:19.360+02:00",
-          "stopTimePresentation" : "2023-10-10T14:45:42.440+02:00",
-          "live" : "false",
-          "videoAspectRatio" : "HD"
-        } ]
-      }, {
-        "id" : "4966879665321",
+        "id" : "5018716616321",
         "type" : "Auto promotion",
         "events" : [ {
-          "id" : "4966883012327",
-          "title" : "TR1: Gintberg på kanten af generationskløften # i morgen på DR1 og DRTV",
-          "startTimePresentation" : "2023-10-10T14:45:42.440+02:00",
-          "stopTimePresentation" : "2023-10-10T14:46:14.440+02:00",
+          "id" : "5018736292327",
+          "title" : "IDR: Silja & børn hamster",
+          "startTimePresentation" : "2023-11-15T12:57:36.480+01:00",
+          "stopTimePresentation" : "2023-11-15T12:57:52.480+01:00",
           "live" : "false",
           "videoAspectRatio" : "16:9",
           "audio" : "Stereo",
           "production" : {
-            "number" : "00432322260"
+            "number" : "00331400280"
           }
         }, {
-          "id" : "4966879666327",
-          "title" : "TR1: Carmen Curlers 2 # Premiere 13. oktober Ekstra lang",
-          "startTimePresentation" : "2023-10-10T14:46:14.440+02:00",
-          "stopTimePresentation" : "2023-10-10T14:48:14.440+02:00",
+          "id" : "5033448992327",
+          "title" : "TRU: Mabinooz nye afsnit lige nu i Ultra på DRTV",
+          "startTimePresentation" : "2023-11-15T12:57:52.480+01:00",
+          "stopTimePresentation" : "2023-11-15T12:58:22.480+01:00",
           "live" : "false",
           "videoAspectRatio" : "16:9",
           "audio" : "Stereo",
           "production" : {
-            "number" : "00432324300"
+            "number" : "00532300870"
           }
         }, {
-          "id" : "4966883007327",
-          "title" : "TR1: Den store bagedyst 2023 vedligehold # Lørdag på DR1 og DRTV",
-          "startTimePresentation" : "2023-10-10T14:48:14.440+02:00",
-          "stopTimePresentation" : "2023-10-10T14:48:44.440+02:00",
+          "id" : "5033448994327",
+          "title" : "TRR: Musikvideo Jagten på regnbuens magi lige nu i Ramasjang på DRTV",
+          "startTimePresentation" : "2023-11-15T12:58:22.480+01:00",
+          "stopTimePresentation" : "2023-11-15T12:58:52.480+01:00",
           "live" : "false",
           "videoAspectRatio" : "16:9",
           "audio" : "Stereo",
           "production" : {
-            "number" : "00432322060"
+            "number" : "00532300970"
+          }
+        }, {
+          "id" : "5033448920327",
+          "title" : "PRR: NU Ramasjang rally (break)",
+          "startTimePresentation" : "2023-11-15T12:58:52.480+01:00",
+          "stopTimePresentation" : "2023-11-15T12:58:58.480+01:00",
+          "live" : "false",
+          "videoAspectRatio" : "16:9",
+          "audio" : "Stereo",
+          "production" : {
+            "number" : "00331500560"
           }
         } ]
       }, {
-        "id" : "4953355522321",
-        "type" : "Præsentation",
+        "id" : "4652507254321",
+        "type" : "Segment of program",
         "events" : [ {
-          "id" : "4953355523327",
-          "title" : "Lineup dag 2023",
-          "startTimePresentation" : "2023-10-10T14:48:44.440+02:00",
-          "stopTimePresentation" : "2023-10-10T14:48:54.440+02:00",
+          "id" : "4652507255327",
+          "title" : "Ramasjang Rally",
+          "startTimePresentation" : "2023-11-15T12:57:23.520+01:00",
+          "stopTimePresentation" : "2023-11-15T13:25:48.080+01:00",
           "live" : "false",
-          "videoAspectRatio" : "16:9",
-          "audio" : "Stereo",
-          "production" : {
-            "number" : "00192300000"
-          }
+          "videoAspectRatio" : "16:9"
         } ]
       } ]
     } ],
     "mediaAsset" : [ {
-      "id" : "8018067",
+      "id" : "0016485",
       "preferred" : "true",
       "canBeUsedForBroadcasting" : "true",
       "element" : [ {
-        "id" : "8018067",
+        "id" : "id urn:dr:ma:mob:10483051",
         "sequenceNumber" : "1",
         "type" : "audio",
-        "duration" : "PT00H43M23.00S"
-      }, {
-        "id" : "00951516060",
-        "sequenceNumber" : "1",
-        "type" : "subtitle",
-        "duration" : "PT00H43M23.00S",
+        "duration" : "PT00H28M24.14S",
         "rfb" : "true",
-        "subtitlingMode" : "TTV                      - Tekster fra tekst-TV"
+        "audioMode" : "Original lyd",
+        "mediearkivUrn" : "urn:dr:ma:mob:10483051"
       }, {
-        "id" : "8018067",
+        "id" : "id urn:dr:ma:mob:10483051",
         "sequenceNumber" : "1",
         "type" : "video",
-        "duration" : "PT00H43M23.00S",
+        "duration" : "PT00H28M24.14S",
         "rfb" : "true",
+        "mediearkivUrn" : "urn:dr:ma:mob:10483051",
         "aspectRatioCode" : "16:9",
         "aspectRatioText" : "HD",
         "aspectRatioPrintcode" : "16:9"
@@ -132,5 +123,5 @@
       "expression" : "Default"
     } ]
   },
-  "touched" : 1696942008551
+  "touched" : 1700049561524
 }

@@ -1,98 +1,11 @@
-<flowPublicationMessage>
-    <action>CU</action>
-    <version>14</version>
-    <modifiedTime>2023-11-01T11:41:38.282</modifiedTime>
-    <production>
-        <number>15452338455</number>
-        <type>Radio</type>
-    </production>
-    <flowPublication>
-        <id>4192407972812</id>
-        <title>Nyborg Station</title>
-        <description>På Nyborg Station mødes aktuelle sange med klassikerne. Her er gæster fra musikkens verden, musik
-            på ægte vinyl, klip fra musikkens historie og altid et bud på dagens bedste cover.
-            Vært: Jesper Nyborg.
-        </description>
-        <distributor>DR Produktion</distributor>
-        <broadcastDate>2023-11-10</broadcastDate>
-        <transmissionStartTime>2023-11-10T13:03:00.000</transmissionStartTime>
-        <transmissionEndTime>2023-11-10T15:00:00.000</transmissionEndTime>
-        <channelPresentationName>DR P5</channelPresentationName>
-        <channelPresentationCode>P5D</channelPresentationCode>
-        <live>false</live>
-        <rerun>false</rerun>
-        <numberOfBlocks>3</numberOfBlocks>
-        <quickReprise>false</quickReprise>
-        <streamingLive>false</streamingLive>
-        <streamingOd>true</streamingOd>
-        <streamingLogicDestination>OAP - on demand og podcast audio (WEBCMS)</streamingLogicDestination>
-        <reconciled>false</reconciled>
-        <blocks>
-            <id>4192407973813</id>
-            <description>På Nyborg Station mødes aktuelle sange med klassikerne. Her er gæster fra musikkens verden,
-                musik på ægte vinyl, klip fra musikkens historie og altid et bud på dagens bedste cover.
-                Vært: Jesper Nyborg.
-            </description>
-            <partNumber>1</partNumber>
-            <broadcastDate>2023-11-10</broadcastDate>
-            <startTimeAnnounced>2023-11-10T13:03:00.000</startTimeAnnounced>
-            <startTimeSlot>2023-11-10T13:03:00.000</startTimeSlot>
-            <stopTimeSlot>2023-11-10T14:00:00.000</stopTimeSlot>
-            <printable>true</printable>
-            <epgrerun>false</epgrerun>
-            <timeAllocations>
-                <id>4192407978321</id>
-                <type>Segment of program</type>
-                <events>
-                    <id>4192407979327</id>
-                    <title>Nyborg Station</title>
-                    <startTimePresentation>2023-11-10T13:03:00.000</startTimePresentation>
-                    <stopTimePresentation>2023-11-10T14:00:00.000</stopTimePresentation>
-                    <live>false</live>
-                </events>
-            </timeAllocations>
-        </blocks>
-        <blocks>
-            <id>4192407980813</id>
-            <partNumber>2</partNumber>
-            <broadcastDate>2023-11-10</broadcastDate>
-            <startTimeAnnounced>2023-11-10T14:03:00.000</startTimeAnnounced>
-            <startTimeSlot>2023-11-10T14:03:00.000</startTimeSlot>
-            <stopTimeSlot>2023-11-10T14:30:00.000</stopTimeSlot>
-            <printable>false</printable>
-            <epgrerun>false</epgrerun>
-            <timeAllocations>
-                <id>4192407984321</id>
-                <type>Segment of program</type>
-                <events>
-                    <id>4192407985327</id>
-                    <title>Nyborg Station</title>
-                    <startTimePresentation>2023-11-10T14:03:00.000</startTimePresentation>
-                    <stopTimePresentation>2023-11-10T14:30:00.000</stopTimePresentation>
-                    <live>false</live>
-                </events>
-            </timeAllocations>
-        </blocks>
-        <blocks>
-            <id>4192407986813</id>
-            <partNumber>3</partNumber>
-            <broadcastDate>2023-11-10</broadcastDate>
-            <startTimeAnnounced>2023-11-10T14:32:00.000</startTimeAnnounced>
-            <startTimeSlot>2023-11-10T14:32:00.000</startTimeSlot>
-            <stopTimeSlot>2023-11-10T15:00:00.000</stopTimeSlot>
-            <printable>false</printable>
-            <epgrerun>false</epgrerun>
-            <timeAllocations>
-                <id>4192407990321</id>
-                <type>Segment of program</type>
-                <events>
-                    <id>4192407991327</id>
-                    <title>Nyborg Station</title>
-                    <startTimePresentation>2023-11-10T14:32:00.000</startTimePresentation>
-                    <stopTimePresentation>2023-11-10T15:00:00.000</stopTimePresentation>
-                    <live>false</live>
-                </events>
-            </timeAllocations>
-        </blocks>
-    </flowPublication>
-</flowPublicationMessage>
+<flowPublicationMessage><action>CU</action><version>14</version><modifiedTime>2023-11-02T10:20:03.833</modifiedTime><production><number>00650913050</number><type>TV</type></production><flowPublication><id>4135277141812</id><title>Husker du ... 1970'ernes kvinder</title><description>I 1970'erne går rødstrømperne på barrikaderne, de smider bh-en og går som mændene rundt i bar overkrop. Kvinderne er socialister og kræver ligeløn og kønskvotering. Mændene ser undrende til, mens kvindebevægelsen ændrede sig fra en gangart til en politisk manifestation.
+    Sendt første gang 07.02.2009
+</description><distributor>DR Produktion</distributor><broadcastDate>2023-11-03</broadcastDate><transmissionStartTime>2023-11-03T18:00:45.880</transmissionStartTime><transmissionEndTime>2023-11-03T19:01:38.240</transmissionEndTime><channelPresentationName>DR2</channelPresentationName><channelPresentationCode>DR2</channelPresentationCode><live>false</live><rerun>true</rerun><technicalSubtextType>TTV                      - Tekster fra tekst-TV</technicalSubtextType><numberOfBlocks>1</numberOfBlocks><quickReprise>false</quickReprise><videoAspectRatio>4:3</videoAspectRatio><streamingLive>false</streamingLive><streamingOd>false</streamingOd><reconciled>false</reconciled><blocks><id>4135277142813</id><description>I 1970'erne går rødstrømperne på barrikaderne, de smider bh-en og går som mændene rundt i bar overkrop. Kvinderne er socialister og kræver ligeløn og kønskvotering. Mændene ser undrende til, mens kvindebevægelsen ændrede sig fra en gangart til en politisk manifestation.
+    Sendt første gang 07.02.2009
+</description><partNumber>1</partNumber><broadcastDate>2023-11-03</broadcastDate><startTimeAnnounced>2023-11-03T18:00:00.000</startTimeAnnounced><startTimeSlot>2023-11-03T18:00:45.880</startTimeSlot><stopTimeSlot>2023-11-03T19:01:38.240</stopTimeSlot><printable>true</printable><epgrerun>true</epgrerun><timeAllocations><id>5016445939321</id><type>Præsentation</type><events><id>5016447247327</id><title>PR2: A IA Spionen</title><startTimePresentation>2023-11-03T18:00:05.880</startTimePresentation><stopTimePresentation>2023-11-03T18:00:25.880</stopTimePresentation><live>false</live><videoAspectRatio>16:9</videoAspectRatio><audio>Stereo</audio><production><number>00152340220</number></production></events><events><id>5016445940327</id><title>PR2: OV NU Husker du ... 1970'ernes kvinder 19:00</title><startTimePresentation>2023-11-03T18:00:25.880</startTimePresentation><stopTimePresentation>2023-11-03T18:00:45.880</stopTimePresentation><live>false</live><videoAspectRatio>HD</videoAspectRatio><audio>Stereo</audio><production><number>00152341370</number></production></events></timeAllocations><timeAllocations><id>4135277147321</id><type>Segment of program</type><events><id>4135277148327</id><title>Husker du ... 1970'ernes kvinder</title><startTimePresentation>2023-11-03T18:00:45.880</startTimePresentation><stopTimePresentation>2023-11-03T18:59:15.240</stopTimePresentation><live>false</live><videoAspectRatio>4:3</videoAspectRatio></events></timeAllocations><timeAllocations><id>5021593739321</id><type>Auto promotion</type><events><id>5021594679327</id><title>TR1: Indefra med Anders Agger # Onsdag på DR1 og DRTV</title><startTimePresentation>2023-11-03T18:59:15.240</startTimePresentation><stopTimePresentation>2023-11-03T18:59:45.240</stopTimePresentation><live>false</live><videoAspectRatio>16:9</videoAspectRatio><audio>Stereo</audio><production><number>00432323480</number></production></events><events><id>5021593742327</id><title>TR1: Kronprinsparrets priser 2023 # I morgen på DR1 og DRTV</title><startTimePresentation>2023-11-03T18:59:45.240</startTimePresentation><stopTimePresentation>2023-11-03T19:00:03.240</stopTimePresentation><live>false</live><videoAspectRatio>16:9</videoAspectRatio><audio>Stereo</audio><production><number>00432236030</number></production></events></timeAllocations></blocks><mediaAsset><id>0116913</id><preferred>true</preferred><canBeUsedForBroadcasting>true</canBeUsedForBroadcasting><element><id>id urn:dr:ma:mob:14585861</id><sequenceNumber>1</sequenceNumber><type>audio</type><duration>
+    PT00H58M29.09S
+</duration><rfb>true</rfb><audioMode>Original lyd</audioMode><mediearkivUrn>urn:dr:ma:mob:14585861</mediearkivUrn></element><element><id>id urn:dr:ma:mob:21613347</id><sequenceNumber>1</sequenceNumber><type>subtitle</type><duration>
+    PT00H58M29.09S
+</duration><rfb>true</rfb><subtitlingMode>TTV                      - Tekster fra tekst-TV</subtitlingMode><mediearkivUrn>urn:dr:ma:mob:21613347</mediearkivUrn></element><element><id>id urn:dr:ma:mob:14585861</id><sequenceNumber>1</sequenceNumber><type>video</type><duration>
+    PT00H58M29.09S
+</duration><rfb>true</rfb><mediearkivUrn>urn:dr:ma:mob:14585861</mediearkivUrn><aspectRatioCode>4:3</aspectRatioCode><aspectRatioText>4:3</aspectRatioText><aspectRatioPrintcode>4:3</aspectRatioPrintcode></element><expression>Default</expression></mediaAsset></flowPublication></flowPublicationMessage>

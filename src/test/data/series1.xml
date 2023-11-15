@@ -1,65 +1,8 @@
-<presentationSeriesMessage>
-    <action>CU</action>
-    <version>9</version>
-    <modifiedTime>2023-10-10T12:41:04.316</modifiedTime>
-    <production>
-        <number>00212318001</number>
-        <type>TV</type>
-    </production>
-    <presentationSeries>
-        <id>4266487647000</id>
-        <parentId>4266486229000</parentId>
-        <title>Volvorøveren</title>
-        <genre>Dokumentar</genre>
-        <genreCode>2.0</genreCode>
-        <genrePrintcode>Dokumentar</genrePrintcode>
-        <seasonNumber>1</seasonNumber>
-        <episodeNumberingValid>false</episodeNumberingValid>
-        <productionYear>2023</productionYear>
-        <seasonTitle>Volvorøveren</seasonTitle>
-        <totalNumberOfEpisodes>3</totalNumberOfEpisodes>
-        <syncProductionYear>true</syncProductionYear>
-        <syncSeason>true</syncSeason>
-        <syncSeasonTitle>true</syncSeasonTitle>
-        <syncTotalNumberOfEpisodes>true</syncTotalNumberOfEpisodes>
-        <syncTitle>true</syncTitle>
-        <syncDescription>true</syncDescription>
-        <syncRitzauCategory>true</syncRitzauCategory>
-        <image1Sequence>0</image1Sequence>
-        <image1Type>DRTV Standard</image1Type>
-        <image1URN>
-            https://drbilleder-prod.s3.amazonaws.com/DR/0000/748/325/DR-0748325.jpg?v=289453097e49f8911ac709290137014b
-        </image1URN>
-        <image2Sequence>0</image2Sequence>
-        <image2Type>Flow TV</image2Type>
-        <image2URN>
-            https://drbilleder-prod.s3.amazonaws.com/DR/0000/748/319/DR-0748319.jpg?v=170260def4e34783739a705f4b16c4f3
-        </image2URN>
-        <image3Sequence>0</image3Sequence>
-        <image3Type>DRTV Standard TG</image3Type>
-        <image3URN>
-            https://drbilleder-prod.s3.amazonaws.com/DR/0000/748/324/DR-0748324.jpg?v=3f89249e78dbaf6bbcc169a7af6d3af2
-        </image3URN>
-        <image4Sequence>0</image4Sequence>
-        <image5Sequence>0</image5Sequence>
-        <odCategory>
-            <name>Dokumentar</name>
-            <userCode>3.0</userCode>
-            <printCode>Dokumentar</printCode>
-        </odCategory>
-        <odCategory>
-            <name>Kultur</name>
-            <userCode>5.0</userCode>
-            <printCode>Kultur</printCode>
-        </odCategory>
-        <odCategory>
-            <name>Historie</name>
-            <userCode>11.0</userCode>
-            <printCode>Historie</printCode>
-        </odCategory>
-        <ageRating>
-            <code>MRAM-11</code>
-            <text>11 år</text>
-        </ageRating>
-    </presentationSeries>
-</presentationSeriesMessage>
+<presentationSeriesMessage><action>CU</action><version>9</version><modifiedTime>2023-11-15T11:55:07.620</modifiedTime><production><number>15452322000</number><type>Radio</type></production><presentationSeries><id>4170267652000</id><parentId>758678325000</parentId><title>Giro 413</title><description>Vært Ole Tøpholm sammensætter ugens program baseret på lytternes henvendelser.
+    Bidrag kan sendes til:
+    Giro: Kontoart: 01 Gironr.: 7000413
+    Eller via MobilePay: 724 413 - send herefter din hilsen på giro413@dr.dk
+    Eller indtal selv din hilsen - ring 7020 7030.
+
+
+</description><genre>Underholdning</genre><genreCode>16.0</genreCode><genrePrintcode>Underholdning</genrePrintcode><seasonNumber>2023</seasonNumber><episodeNumberingValid>false</episodeNumberingValid><totalNumberOfEpisodes>0</totalNumberOfEpisodes><syncProductionYear>true</syncProductionYear><syncSeason>true</syncSeason><syncSeasonTitle>true</syncSeasonTitle><syncTotalNumberOfEpisodes>true</syncTotalNumberOfEpisodes><syncTitle>true</syncTitle><syncDescription>true</syncDescription><syncRitzauCategory>true</syncRitzauCategory><odCategory><name>Underholdning</name><userCode>59.0</userCode><printCode>Underholdning</printCode></odCategory><odCategory><name>Musik</name><userCode>66.0</userCode><printCode>Musik</printCode></odCategory><ageRating><code>MRAM-NOT-RATED</code><text>Ikke vurderet</text></ageRating></presentationSeries></presentationSeriesMessage>

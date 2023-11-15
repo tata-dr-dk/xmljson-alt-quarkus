@@ -1,23 +1,22 @@
 {
   "action" : "CU",
   "version" : "9",
-  "modifiedTime" : "2023-10-10T14:42:34.382+02:00",
+  "modifiedTime" : "2023-11-15T11:59:46.566+01:00",
   "production" : {
-    "number" : "00212318001",
+    "number" : "00922318001",
     "type" : "TV"
   },
   "presentationSeries" : {
-    "id" : "4266487647000",
-    "parentId" : "4266486229000",
-    "title" : "Volvorøveren",
-    "genre" : "Dokumentar",
-    "genreCode" : "2.0",
-    "genrePrintcode" : "Dokumentar",
-    "seasonNumber" : "1",
+    "id" : "5054520368000",
+    "parentId" : "5054504039000",
+    "title" : "Bessie",
+    "genre" : "Børn og Ungdom",
+    "genreCode" : "1.0",
+    "genrePrintcode" : "Børn og Ungdom",
+    "seasonNumber" : "2",
     "episodeNumberingValid" : "false",
     "productionYear" : "2023",
-    "seasonTitle" : "Volvorøveren",
-    "totalNumberOfEpisodes" : "3",
+    "totalNumberOfEpisodes" : "12",
     "syncProductionYear" : "true",
     "syncSeason" : "true",
     "syncSeasonTitle" : "true",
@@ -25,36 +24,15 @@
     "syncTitle" : "true",
     "syncDescription" : "true",
     "syncRitzauCategory" : "true",
-    "image1Sequence" : "0",
-    "image1Type" : "DRTV Standard",
-    "image1URN" : "https://drbilleder-prod.s3.amazonaws.com/DR/0000/748/325/DR-0748325.jpg?v=289453097e49f8911ac709290137014b",
-    "image2Sequence" : "0",
-    "image2Type" : "DRTV Poster",
-    "image2URN" : "https://drbilleder-prod.s3.amazonaws.com/DR/0000/748/327/DR-0748327.jpg?v=1270c134ae4be42f00722c178c89feb4",
-    "image3Sequence" : "0",
-    "image3Type" : "Flow TV",
-    "image3URN" : "https://drbilleder-prod.s3.amazonaws.com/DR/0000/748/319/DR-0748319.jpg?v=170260def4e34783739a705f4b16c4f3",
-    "image4Sequence" : "0",
-    "image4Type" : "DRTV Standard TG",
-    "image4URN" : "https://drbilleder-prod.s3.amazonaws.com/DR/0000/748/324/DR-0748324.jpg?v=3f89249e78dbaf6bbcc169a7af6d3af2",
-    "image5Sequence" : "0",
     "odCategory" : [ {
-      "name" : "Dokumentar",
-      "userCode" : "3.0",
-      "printCode" : "Dokumentar"
-    }, {
-      "name" : "Kultur",
-      "userCode" : "5.0",
-      "printCode" : "Kultur"
-    }, {
-      "name" : "Historie",
-      "userCode" : "11.0",
-      "printCode" : "Historie"
+      "name" : "Børn",
+      "userCode" : "21.0",
+      "printCode" : "Børn"
     } ],
     "ageRating" : {
-      "code" : "MRAM-11",
-      "text" : "11 år"
+      "code" : "MRAM-ALL",
+      "text" : "Alle"
     }
   },
-  "touched" : 1696941754676
+  "touched" : 1700045986886
 }

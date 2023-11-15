@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <jaxb:bindings version="3.0" xmlns:jaxb="https://jakarta.ee/xml/ns/jaxb"
                xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc" xmlns:xs="http://www.w3.org/2001/XMLSchema"
-               jaxb:extensionBindingPrefixes="xjc">
+               >
 
     <jaxb:globalBindings>
-        <xjc:simple />
-        <xjc:serializable uid="-1" />
         <jaxb:javaType name="java.util.Calendar" xmlType="xs:dateTime"
                        parseMethod="jakarta.xml.bind.DatatypeConverter.parseDateTime"
                        printMethod="jakarta.xml.bind.DatatypeConverter.printDateTime" />
@@ -13,7 +11,7 @@
                 name="java.lang.String"
                 xmlType="xs:string"
                 adapter="dk.dr.drip.adapters.cloud.xmljsonalttest.StringTrimAdapter"/>
-
+        <xjc:simple />
     </jaxb:globalBindings>
 
     <!-- field naming: hinder lists fields to get plural 's' appended  -->
@@ -37,6 +35,9 @@
         </jaxb:bindings>
         <jaxb:bindings node="//xs:element[@name='keywordsEditorialPTaxSub']">
             <jaxb:property name="keywordsEditorialPTaxSub"/>
+        </jaxb:bindings>
+        <jaxb:bindings node="//xs:element[@name='keywordsEditorialPTaxTop']">
+            <jaxb:property name="keywordsEditorialPTaxTop"/>
         </jaxb:bindings>
 
     </jaxb:bindings>

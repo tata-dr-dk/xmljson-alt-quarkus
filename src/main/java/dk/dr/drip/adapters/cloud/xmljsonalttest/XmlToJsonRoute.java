@@ -7,6 +7,7 @@ import com.fasterxml.jackson.databind.*;
 import com.fasterxml.jackson.databind.json.JsonMapper;
 import com.fasterxml.jackson.databind.module.SimpleModule;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
+import generated.ProductRegionsType;
 import jakarta.enterprise.context.ApplicationScoped;
 import jakarta.inject.Inject;
 import org.apache.camel.builder.endpoint.EndpointRouteBuilder;
@@ -20,8 +21,17 @@ import org.w3c.dom.Document;
 @ApplicationScoped
 public class XmlToJsonRoute extends EndpointRouteBuilder {
     @Inject
-    XmlDateFormatter dateFormatter;
+    XmlElementFormatter dateFormatter;
 
+    /*
+        dateFormatter (utc etc.)
+        production-in replace brackets with parenthesis
+        validate against xsd
+            onException -> dead-message-queue
+        xmlhack to avoid empty lists as null etc.
+        json convert
+        flow-publication-in json: flowPublicationIdEnforcer
+     */
     @Override
     public void configure() {
         // unmarshal xml
@@ -36,17 +46,27 @@ public class XmlToJsonRoute extends EndpointRouteBuilder {
                 .log("in: \n${body}\n")
                 .process(exchange -> {
                     Document body = exchange.getIn().getBody(Document.class);
-                    exchange.getIn().setBody(dateFormatter.formatDates(body));
+                    exchange.getIn().setBody(dateFormatter.format(body));
                 })
                 //.bean(dateFormatter, "formatDates")
-                .log("trx: \n${body}\n")
+                .log("after format before unmarshal: \n${body}\n")
                 .unmarshal(jaxb)
-                .log("startTimePresentation: \n${body.flowPublication.blocks[0].timeAllocations[0].events[0].startTimePresentation}")
+                .log("after unmarshal before marshal: \n${body}\n")
                 .marshal(dataFormat)
                 .log("out: \n${body}\n")
                 .to(file("target/test-output-files")).id("flow-last-endpoint")
+
                 .end();
+
+        from(direct("clear-http-headers"))
+                .removeHeader("Content-Length")
+                .removeHeader("transfer-encoding")
+                .removeHeader("X-Application-Context")
+                .removeHeader("CamelHttpPath")
+                .end();
+
     }
+
 
     private ObjectMapper getObjectMapper() {
         ObjectMapper mapper = JsonMapper.builder()
@@ -77,6 +97,15 @@ public class XmlToJsonRoute extends EndpointRouteBuilder {
             public void serialize(generated.PlatformsType value, JsonGenerator gen, SerializerProvider serializers) throws IOException {
                 String[] array = value.getPlatforms().toArray(new String[0]);
                 gen.writeArray(array,0 ,array.length);
+            }
+        });
+        module.addSerializer(generated.ProductRegionsType.class, new JsonSerializer<>() {
+            @Override
+            public void serialize(ProductRegionsType value, JsonGenerator gen, SerializerProvider serializers) throws IOException {
+                // already inside an array [], writeString adds elements to the array
+                for(String region : value.getProductRegions()) {
+                    gen.writeString(region);
+                }
             }
         });
 

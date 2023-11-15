@@ -1,91 +1,138 @@
 {
   "action" : "CU",
   "version" : "14",
-  "modifiedTime" : "2023-11-01T12:41:38.282+01:00",
+  "modifiedTime" : "2023-11-02T11:20:03.833+01:00",
   "production" : {
-    "number" : "15452338455",
-    "type" : "Radio"
+    "number" : "00650913050",
+    "type" : "TV"
   },
   "flowPublication" : {
-    "id" : "4192407972812",
-    "title" : "Nyborg Station",
-    "description" : "På Nyborg Station mødes aktuelle sange med klassikerne. Her er gæster fra musikkens verden, musik på ægte vinyl, klip fra musikkens historie og altid et bud på dagens bedste cover.\nVært: Jesper Nyborg.",
+    "id" : "4135277141812",
+    "title" : "Husker du ... 1970'ernes kvinder",
+    "description" : "I 1970'erne går rødstrømperne på barrikaderne, de smider bh-en og går som mændene rundt i bar overkrop. Kvinderne er socialister og kræver ligeløn og kønskvotering. Mændene ser undrende til, mens kvindebevægelsen ændrede sig fra en gangart til en politisk manifestation.\nSendt første gang 07.02.2009",
     "distributor" : "DR Produktion",
-    "broadcastDate" : "2023-11-10",
-    "transmissionStartTime" : "2023-11-10T14:03:00.000+01:00",
-    "transmissionEndTime" : "2023-11-10T16:00:00.000+01:00",
-    "channelPresentationName" : "DR P5",
-    "channelPresentationCode" : "P5D",
+    "broadcastDate" : "2023-11-03",
+    "transmissionStartTime" : "2023-11-03T19:00:45.880+01:00",
+    "transmissionEndTime" : "2023-11-03T20:01:38.240+01:00",
+    "channelPresentationName" : "DR2",
+    "channelPresentationCode" : "DR2",
     "live" : "false",
-    "rerun" : "false",
-    "numberOfBlocks" : "3",
+    "rerun" : "true",
+    "technicalSubtextType" : "TTV                      - Tekster fra tekst-TV",
+    "numberOfBlocks" : "1",
     "quickReprise" : "false",
+    "videoAspectRatio" : "4:3",
     "streamingLive" : "false",
-    "streamingOd" : "true",
-    "streamingLogicDestination" : "OAP - on demand og podcast audio (WEBCMS)",
+    "streamingOd" : "false",
     "reconciled" : "false",
     "blocks" : [ {
-      "id" : "4192407973813",
-      "description" : "På Nyborg Station mødes aktuelle sange med klassikerne. Her er gæster fra musikkens verden, musik på ægte vinyl, klip fra musikkens historie og altid et bud på dagens bedste cover.\nVært: Jesper Nyborg.",
+      "id" : "4135277142813",
+      "description" : "I 1970'erne går rødstrømperne på barrikaderne, de smider bh-en og går som mændene rundt i bar overkrop. Kvinderne er socialister og kræver ligeløn og kønskvotering. Mændene ser undrende til, mens kvindebevægelsen ændrede sig fra en gangart til en politisk manifestation.\nSendt første gang 07.02.2009",
       "partNumber" : "1",
-      "broadcastDate" : "2023-11-10",
-      "startTimeAnnounced" : "2023-11-10T14:03:00.000+01:00",
-      "startTimeSlot" : "2023-11-10T14:03:00.000+01:00",
-      "stopTimeSlot" : "2023-11-10T15:00:00.000+01:00",
+      "broadcastDate" : "2023-11-03",
+      "startTimeAnnounced" : "2023-11-03T19:00:00.000+01:00",
+      "startTimeSlot" : "2023-11-03T19:00:45.880+01:00",
+      "stopTimeSlot" : "2023-11-03T20:01:38.240+01:00",
       "printable" : "true",
-      "epgrerun" : "false",
+      "epgrerun" : "true",
       "timeAllocations" : [ {
-        "id" : "4192407978321",
+        "id" : "5016445939321",
+        "type" : "Præsentation",
+        "events" : [ {
+          "id" : "5016447247327",
+          "title" : "PR2: A IA Spionen",
+          "startTimePresentation" : "2023-11-03T19:00:05.880+01:00",
+          "stopTimePresentation" : "2023-11-03T19:00:25.880+01:00",
+          "live" : "false",
+          "videoAspectRatio" : "16:9",
+          "audio" : "Stereo",
+          "production" : {
+            "number" : "00152340220"
+          }
+        }, {
+          "id" : "5016445940327",
+          "title" : "PR2: OV NU Husker du ... 1970'ernes kvinder 19:00",
+          "startTimePresentation" : "2023-11-03T19:00:25.880+01:00",
+          "stopTimePresentation" : "2023-11-03T19:00:45.880+01:00",
+          "live" : "false",
+          "videoAspectRatio" : "HD",
+          "audio" : "Stereo",
+          "production" : {
+            "number" : "00152341370"
+          }
+        } ]
+      }, {
+        "id" : "4135277147321",
         "type" : "Segment of program",
         "events" : [ {
-          "id" : "4192407979327",
-          "title" : "Nyborg Station",
-          "startTimePresentation" : "2023-11-10T14:03:00.000+01:00",
-          "stopTimePresentation" : "2023-11-10T15:00:00.000+01:00",
-          "live" : "false"
+          "id" : "4135277148327",
+          "title" : "Husker du ... 1970'ernes kvinder",
+          "startTimePresentation" : "2023-11-03T19:00:45.880+01:00",
+          "stopTimePresentation" : "2023-11-03T19:59:15.240+01:00",
+          "live" : "false",
+          "videoAspectRatio" : "4:3"
         } ]
-      } ]
-    }, {
-      "id" : "4192407980813",
-      "partNumber" : "2",
-      "broadcastDate" : "2023-11-10",
-      "startTimeAnnounced" : "2023-11-10T15:03:00.000+01:00",
-      "startTimeSlot" : "2023-11-10T15:03:00.000+01:00",
-      "stopTimeSlot" : "2023-11-10T15:30:00.000+01:00",
-      "printable" : "false",
-      "epgrerun" : "false",
-      "timeAllocations" : [ {
-        "id" : "4192407984321",
-        "type" : "Segment of program",
+      }, {
+        "id" : "5021593739321",
+        "type" : "Auto promotion",
         "events" : [ {
-          "id" : "4192407985327",
-          "title" : "Nyborg Station",
-          "startTimePresentation" : "2023-11-10T15:03:00.000+01:00",
-          "stopTimePresentation" : "2023-11-10T15:30:00.000+01:00",
-          "live" : "false"
+          "id" : "5021594679327",
+          "title" : "TR1: Indefra med Anders Agger # Onsdag på DR1 og DRTV",
+          "startTimePresentation" : "2023-11-03T19:59:15.240+01:00",
+          "stopTimePresentation" : "2023-11-03T19:59:45.240+01:00",
+          "live" : "false",
+          "videoAspectRatio" : "16:9",
+          "audio" : "Stereo",
+          "production" : {
+            "number" : "00432323480"
+          }
+        }, {
+          "id" : "5021593742327",
+          "title" : "TR1: Kronprinsparrets priser 2023 # I morgen på DR1 og DRTV",
+          "startTimePresentation" : "2023-11-03T19:59:45.240+01:00",
+          "stopTimePresentation" : "2023-11-03T20:00:03.240+01:00",
+          "live" : "false",
+          "videoAspectRatio" : "16:9",
+          "audio" : "Stereo",
+          "production" : {
+            "number" : "00432236030"
+          }
         } ]
       } ]
-    }, {
-      "id" : "4192407986813",
-      "partNumber" : "3",
-      "broadcastDate" : "2023-11-10",
-      "startTimeAnnounced" : "2023-11-10T15:32:00.000+01:00",
-      "startTimeSlot" : "2023-11-10T15:32:00.000+01:00",
-      "stopTimeSlot" : "2023-11-10T16:00:00.000+01:00",
-      "printable" : "false",
-      "epgrerun" : "false",
-      "timeAllocations" : [ {
-        "id" : "4192407990321",
-        "type" : "Segment of program",
-        "events" : [ {
-          "id" : "4192407991327",
-          "title" : "Nyborg Station",
-          "startTimePresentation" : "2023-11-10T15:32:00.000+01:00",
-          "stopTimePresentation" : "2023-11-10T16:00:00.000+01:00",
-          "live" : "false"
-        } ]
-      } ]
+    } ],
+    "mediaAsset" : [ {
+      "id" : "0116913",
+      "preferred" : "true",
+      "canBeUsedForBroadcasting" : "true",
+      "element" : [ {
+        "id" : "id urn:dr:ma:mob:14585861",
+        "sequenceNumber" : "1",
+        "type" : "audio",
+        "duration" : "PT00H58M29.09S",
+        "rfb" : "true",
+        "audioMode" : "Original lyd",
+        "mediearkivUrn" : "urn:dr:ma:mob:14585861"
+      }, {
+        "id" : "id urn:dr:ma:mob:21613347",
+        "sequenceNumber" : "1",
+        "type" : "subtitle",
+        "duration" : "PT00H58M29.09S",
+        "rfb" : "true",
+        "subtitlingMode" : "TTV                      - Tekster fra tekst-TV",
+        "mediearkivUrn" : "urn:dr:ma:mob:21613347"
+      }, {
+        "id" : "id urn:dr:ma:mob:14585861",
+        "sequenceNumber" : "1",
+        "type" : "video",
+        "duration" : "PT00H58M29.09S",
+        "rfb" : "true",
+        "mediearkivUrn" : "urn:dr:ma:mob:14585861",
+        "aspectRatioCode" : "4:3",
+        "aspectRatioText" : "4:3",
+        "aspectRatioPrintcode" : "4:3"
+      } ],
+      "expression" : "Default"
     } ]
   },
-  "touched" : 1698838898827
+  "touched" : 1698920405674
 }
