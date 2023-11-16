@@ -1,13 +1,21 @@
 package dk.dr.drip.adapters.cloud.xmljsonalttest;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.enterprise.inject.Produces;
 import org.apache.camel.Configuration;
+import org.apache.camel.component.jackson.JacksonDataFormat;
+import org.apache.camel.converter.jaxb.JaxbDataFormat;
 
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 
 @Configuration
 public class Config {
+
+    // ----------------------
+    //  config xml unmarshal
+    // ----------------------
 
     @Produces
     public XmlElementFormatter getXmlFormatter() {
@@ -37,4 +45,15 @@ public class Config {
         ));
     }
 
+    @Produces
+    public JaxbDataFormat jaxb() {
+        return new JaxbDataFormat("generated");
+    }
+
+    @Produces
+    public JacksonDataFormat dataFormat(ObjectMapper objectMapper) {
+        JacksonDataFormat dataFormat = new JacksonDataFormat(objectMapper, HashMap.class);
+        dataFormat.setPrettyPrint(true);
+        return dataFormat;
+    }
 }
